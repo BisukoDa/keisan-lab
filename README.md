@@ -35,7 +35,7 @@ GitHub Actions が再検証 → GitHub Pages に公開（納品）
 
 0. **（必須・2分）Claude GitHub App をこのリポジトリに入れる**：これがないとクラウドのルーティンが main に push（＝公開）できません（初回テストでは消費税計算ページが Fable 審査に合格したのに、push が 403 で止まりました）。https://github.com/apps/claude/installations/select_target を開き、**BisukoDa** アカウントを選んで、リポジトリに **keisan-lab** を含めて Install／Save します。すでに Claude アプリを入れている場合は https://github.com/settings/installations の Claude → Configure で keisan-lab を追加します。
 0. **（推奨・1分）ルーティンのネットワークを広げる**：クラウド環境の初期設定（Trusted）では官公庁サイト（go.jp など）に接続できず、Fable が出典を直接開いて確認できません。claude.ai/code/routines → このルーティン → Edit → 環境（Default）の設定アイコン → Network access を **Full**（または Custom にして `*.go.jp` `*.or.jp` `*.e-gov.go.jp` `www.flat35.com` などを追加）に変更して保存してください。未設定でも Fable は Web 検索で裏付けを取りますが、確認できない記述は不合格にするため、公開が止まりやすくなります。
-1. **アフィリエイト（A8.net）に登録する**：メディア登録の URL は上記サイト。承認後、`config/affiliates.json` の枠（証券・住宅ローン・電力比較・会計ソフト）に合う広告に提携申請し、発行された広告タグを該当キーの `html` に貼って `enabled` を `true` にします。以降、関連するページに自動で表示され、「本ページはプロモーションを含みます」の表記も自動で付きます。
+1. **アフィリエイト（A8.net）の広告を渡す**：A8.net で提携が承認されたら「広告リンク作成」でウェブサイト用のタグ（テキスト、または 300×250 程度までのバナー）をコピーし、このリポジトリの Issue →「New issue」→「広告タグの登録」に貼って送信します（スマホからでも可）。翌朝の自動実行が、合うページを選び、安全チェックと Fable の審査を通してから設置し、Issue に結果をコメントします。A8.net のパスワードは Claude に渡さないでください（規約上、ID・パスワードの第三者利用は会員の責任になり、システムを第三者に使わせることも禁止されています）。
 2. ~~独自ドメインを取る~~ → 完了（`keisan-lab.site`、Cloudflare で取得。DNS は GitHub Pages の A レコード4件＋`www` の CNAME、すべてプロキシなし）。
 3. **Google Search Console に登録する**：HTML タグ方式の確認コードを `config/site.json` の `searchConsoleVerification` に入れ、サイトマップ（`/sitemap.xml`）を送信します。検索に載るのが早くなります。
 4. **AdSense に申請する（ツールが20〜30本になってから）**：承認されたら `config/site.json` の `adsense.client`（`ca-pub-…`）を設定します。自動広告と `ads.txt` が自動で出力されます。

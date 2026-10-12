@@ -88,6 +88,27 @@ for (const t of tools) {
   }
 }
 
+// ---- 提携広告タグ（config/affiliates.json）----
+// 外部から持ち込まれる HTML なので、許可した ASP のドメインだけを参照し、スクリプトを含まないことを機械的に保証する
+const AD_HOSTS = /^(px\.a8\.net|www\d*\.a8\.net|a8\.net)$/;
+for (const [key, ad] of Object.entries(affiliates)) {
+  if (key.startsWith('_')) continue;
+  const where = `config/affiliates.json#${key}`;
+  if (!ad.html) {
+    if (ad.enabled) err(where, 'enabled なのに html が空');
+    continue;
+  }
+  if (/<script|<iframe|<style|javascript:|\son\w+\s*=/i.test(ad.html)) err(where, 'script・iframe・イベント属性などは使えない');
+  const tags = ad.html.match(/<[a-z][^>]*>/gi) ?? [];
+  for (const t of tags) if (!/^<(a|img|br)\b/i.test(t)) err(where, `許可していないタグ ${t.slice(0, 30)}`);
+  for (const [, url] of ad.html.matchAll(/(?:href|src)\s*=\s*"([^"]*)"/gi)) {
+    let host = '';
+    try { host = new URL(url).hostname; } catch {}
+    if (!AD_HOSTS.test(host)) err(where, `許可していないドメインへのリンク ${url}`);
+  }
+  for (const a of ad.html.match(/<a\b[^>]*>/gi) ?? []) if (!/rel="[^"]*nofollow/i.test(a)) err(where, '広告リンクに rel="nofollow" がない');
+}
+
 // ---- 重複 ----
 for (const key of ['title', 'description']) {
   const seen = new Map();

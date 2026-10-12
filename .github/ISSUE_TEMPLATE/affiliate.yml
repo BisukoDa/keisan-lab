@@ -1,0 +1,32 @@
+name: 広告タグの登録（オーナー専用）
+description: A8.net などで作成した広告タグを登録します。次回の自動実行で、合うページに設置されます。
+title: "[広告] "
+labels: ["affiliate"]
+body:
+  - type: input
+    id: program
+    attributes:
+      label: プログラム名
+      description: 例）○○証券 口座開設、○○でんき 比較
+    validations:
+      required: true
+  - type: dropdown
+    id: slot
+    attributes:
+      label: 置きたい場所
+      options:
+        - おまかせ（内容から自動で判断）
+        - 証券・NISA（積立計算など）
+        - 住宅ローン（ローン計算など）
+        - 電力比較（電気代計算など）
+        - 会計ソフト（副業・確定申告など）
+    validations:
+      required: true
+  - type: textarea
+    id: tag
+    attributes:
+      label: 広告タグ（HTML）
+      description: A8.net の「広告リンク作成」で、ウェブサイト用の「テキスト」または「バナー（300×250 程度まで）」のタグをそのまま貼ってください。メルマガ用の広告文は使えません。
+      render: html
+    validations:
+      required: true
