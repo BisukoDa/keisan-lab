@@ -33,7 +33,8 @@ GitHub Actions が再検証 → GitHub Pages に公開（納品）
 
 本人確認・銀行口座・規約への同意が必要なものは、法律上も規約上も Claude が代行できません。上から順に、できるものから進めてください。
 
-0. **（最優先・1分）ルーティンのネットワークを広げる**：クラウド環境の初期設定（Trusted）では官公庁サイト（go.jp など）に接続できず、Fable が出典を直接開いて確認できません。claude.ai/code/routines → このルーティン → Edit → 環境（Default）の設定アイコン → Network access を **Full**（または Custom にして `*.go.jp` `*.or.jp` `*.e-gov.go.jp` `www.flat35.com` などを追加）に変更して保存してください。未設定でも Fable は Web 検索で裏付けを取りますが、確認できない記述は不合格にするため、公開が止まりやすくなります。
+0. **（必須・2分）Claude GitHub App をこのリポジトリに入れる**：これがないとクラウドのルーティンが main に push（＝公開）できません（初回テストでは消費税計算ページが Fable 審査に合格したのに、push が 403 で止まりました）。https://github.com/apps/claude/installations/select_target を開き、**BisukoDa** アカウントを選んで、リポジトリに **keisan-lab** を含めて Install／Save します。すでに Claude アプリを入れている場合は https://github.com/settings/installations の Claude → Configure で keisan-lab を追加します。
+0. **（推奨・1分）ルーティンのネットワークを広げる**：クラウド環境の初期設定（Trusted）では官公庁サイト（go.jp など）に接続できず、Fable が出典を直接開いて確認できません。claude.ai/code/routines → このルーティン → Edit → 環境（Default）の設定アイコン → Network access を **Full**（または Custom にして `*.go.jp` `*.or.jp` `*.e-gov.go.jp` `www.flat35.com` などを追加）に変更して保存してください。未設定でも Fable は Web 検索で裏付けを取りますが、確認できない記述は不合格にするため、公開が止まりやすくなります。
 1. **アフィリエイト（A8.net）に登録する**：メディア登録の URL は上記サイト。承認後、`config/affiliates.json` の枠（証券・住宅ローン・電力比較・会計ソフト）に合う広告に提携申請し、発行された広告タグを該当キーの `html` に貼って `enabled` を `true` にします。以降、関連するページに自動で表示され、「本ページはプロモーションを含みます」の表記も自動で付きます。
 2. **独自ドメインを取る（年1,500円前後）**：AdSense は `github.io` のサブディレクトリでは審査を受けられないため必要です。取得後、`config/site.json` の `customDomain` に設定し、DNS に GitHub Pages 用のレコードを追加します（設定方法は GitHub Docs「Managing a custom domain for your GitHub Pages site」）。
 3. **Google Search Console に登録する**：HTML タグ方式の確認コードを `config/site.json` の `searchConsoleVerification` に入れ、サイトマップ（`/sitemap.xml`）を送信します。検索に載るのが早くなります。
