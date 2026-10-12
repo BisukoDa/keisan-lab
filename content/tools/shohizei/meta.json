@@ -1,0 +1,17 @@
+{
+  "title": "消費税計算｜税込・税抜をかんたんに計算（10%・8%対応）",
+  "shortTitle": "消費税計算",
+  "description": "税抜価格から税込価格、税込価格から税抜価格を計算。標準税率10%と軽減税率8%に対応し、消費税額の端数処理（切り捨て・四捨五入・切り上げ）も選べます。",
+  "lead": "「税抜1万円は税込でいくら？」「税込1,100円の税抜価格は？」を、金額と税率を選ぶだけで計算します。消費税額の端数処理の違いも確認できます。",
+  "category": "money",
+  "keywords": ["消費税 計算", "税込 税抜 計算", "税込価格 計算", "税抜価格 計算", "軽減税率 8% 計算", "消費税 端数処理"],
+  "related": ["percent", "loan"],
+  "sources": [
+    { "title": "国税庁 No.6101 消費税の基本的なしくみ", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6101.htm" },
+    { "title": "国税庁 No.6902「総額表示」の義務付け", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6902.htm" },
+    { "title": "国税庁 インボイス制度に関するQ&A 問57「適格請求書に記載する消費税額等の端数処理」", "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/pdf/qa/57.pdf" }
+  ],
+  "reviewYearly": true,
+  "published": "2026-10-13",
+  "updated": "2026-10-13"
+}

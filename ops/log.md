@@ -17,3 +17,4 @@
 | 2026-10-12 | publish | en/age-calculator | Fable 92（2回目合格。1回目 78：2/29生まれの年齢と次の誕生日の矛盾、単位のスペース） | 英語版初期リリース |
 | 2026-10-12 | publish | en/date-calculator | Fable 90（1回目合格） | 英語版初期リリース |
 | 2026-10-12 | publish | en/tip-calculator | Fable 91（1回目 90 で合格、軽微修正後に再確認） | 英語版初期リリース |
+| 2026-10-13 | publish | shohizei | Fable 93 (1回目合格) | 消費税計算｜税込・税抜をかんたんに計算（10%・8%対応）。広告タグ Issue #1(高リスク銘柄)・#2(楽天・枠不一致) は見送りで close |
