@@ -1,0 +1,16 @@
+{
+  "title": "電気代計算｜家電の消費電力（W）から1か月の電気代を計算",
+  "shortTitle": "電気代計算",
+  "description": "家電の消費電力（W）と使用時間を入れるだけで、1時間・1日・1か月・1年の電気代の目安を計算。目安単価31円/kWhの根拠や、ワットから電気代を求める計算式も解説します。",
+  "lead": "ドライヤー、電子レンジ、こたつ……その家電の電気代はいくら？　消費電力と使う時間を入れると、1か月と1年の電気代の目安をすぐに計算します。",
+  "category": "life",
+  "keywords": ["電気代 計算", "消費電力 電気代", "ワット 電気代", "1kWh 単価", "家電 電気代", "電気代 1時間"],
+  "offers": ["electricity"],
+  "related": ["percent", "tsumitate"],
+  "sources": [
+    { "title": "全国家庭電気製品公正取引協議会「よくある質問 Q&A」（電気料金の目安単価）", "url": "https://www.eftc.or.jp/qa/" },
+    { "title": "資源エネルギー庁「省エネポータルサイト」", "url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "keisan-lab",
+  "private": true,
+  "type": "module",
+  "description": "暮らしの計算ラボ — Claude Code routines が毎日ツールを追加し、Fable が審査してから公開する自動運営サイト",
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "verify": "npm test && npm run build && npm run check",
+    "check:sources": "node scripts/check-sources.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

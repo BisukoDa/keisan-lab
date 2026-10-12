@@ -1,0 +1,27 @@
+{
+  "_comment": "提携が承認されたら enabled を true にし、html に ASP（A8.net 等）が発行した広告タグをそのまま貼る。enabled=false の枠はサイトに一切表示されない。",
+  "securities": {
+    "enabled": false,
+    "heading": "NISAで積立を始めるなら",
+    "text": "ネット証券なら100円から積立でき、手数料も抑えられます。",
+    "html": ""
+  },
+  "mortgage": {
+    "enabled": false,
+    "heading": "住宅ローンの金利を比べる",
+    "text": "複数の金融機関の金利・手数料をまとめて比較できます。",
+    "html": ""
+  },
+  "electricity": {
+    "enabled": false,
+    "heading": "電気代を見直す",
+    "text": "郵便番号と使用量を入れるだけで、電力会社の料金を比較できます。",
+    "html": ""
+  },
+  "accounting": {
+    "enabled": false,
+    "heading": "副業の確定申告をラクにする",
+    "text": "会計ソフトなら銀行・カード明細の取り込みから申告書作成まで自動化できます。",
+    "html": ""
+  }
+}

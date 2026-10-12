@@ -1,0 +1,17 @@
+{
+  "title": "積立・複利計算シミュレーション｜毎月の積立で何年後にいくら？",
+  "shortTitle": "積立・複利計算",
+  "description": "毎月の積立額・想定利回り・期間を入れるだけで、複利で運用した将来の資産額・元本・運用益を試算。1年ごとの推移表と計算式、計算例も解説します。",
+  "lead": "毎月いくらを年何％で積み立てたら、何年後にいくらになる？　積立額・利回り・期間を入れると、複利で増える資産額をその場で計算します。",
+  "category": "money",
+  "keywords": ["積立 シミュレーション", "複利計算", "積立投資 計算", "NISA 積立 シミュレーション", "複利 計算式", "つみたて"],
+  "offers": ["securities"],
+  "related": ["loan", "percent"],
+  "sources": [
+    { "title": "金融庁「つみたてシミュレーター」", "url": "https://www.fsa.go.jp/policy/nisa2/tsumitate-simulator/index.html" },
+    { "title": "金融庁「NISA特設ウェブサイト」", "url": "https://www.fsa.go.jp/policy/nisa2/" },
+    { "title": "国税庁 No.1463 株式等を譲渡したときの課税（申告分離課税）", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1463.htm" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}
