@@ -2,20 +2,24 @@
 
 このリポジトリは、Claude Code のクラウドルーティンが毎日1本ずつ計算ツールページを追加し、Fable の審査に合格したものだけを公開（main へ push → GitHub Actions が GitHub Pages にデプロイ）する、無人運営の Web サイトです。収益は Google AdSense とアフィリエイト（A8.net 等）で、目標は月3万円です。
 
+サイトは2言語です（ドメインは https://keisan-lab.site/ の1つ）。日本語版「暮らしの計算ラボ」はルート（`/`）、英語版「Keisan Lab」は `/en/` 配下です。英語版は日本語版の翻訳ではなく、英語圏（主に米国）の検索需要に合わせたツールを作ります。対応するツールがある場合だけ `meta.alternate` で相互リンク（hreflang）します。
+
 人間（オーナー）の承認は不要です。ただし、下記の「やってはいけないこと」は絶対に守ってください。
 
 ## ディレクトリ
 
 | パス | 内容 |
 | --- | --- |
-| `content/tools/<slug>/` | ツール1本 = `calc.js` `calc.test.mjs` `meta.json` `article.html` |
+| `content/tools/<slug>/` | 日本語のツール1本 = `calc.js` `calc.test.mjs` `meta.json` `article.html` |
+| `content/en/tools/<slug>/` | 英語のツール1本（同じ4ファイル）。slug は `xxx-calculator` の形 |
 | `content/lib/` | ツール共通の JS（日付・和暦など） |
-| `content/pages/` | 運営者情報・プライバシーポリシー等の固定ページ |
+| `content/pages/`・`content/en/pages/` | 運営者情報・プライバシーポリシー等の固定ページ（日本語・英語） |
 | `config/site.json` | サイト設定（AdSense・アナリティクス ID、独自ドメイン） |
-| `config/affiliates.json` | 提携広告の枠。`enabled: true` かつ `html` があるものだけ表示される |
+| `config/categories.json`・`config/categories.en.json` | カテゴリ（日本語・英語。id は共通） |
+| `config/affiliates.json`・`config/affiliates.en.json` | 提携広告の枠（日本語ページ用・英語ページ用）。`enabled: true` かつ `html` があるものだけ表示される |
 | `static/` | CSS・ブラウザ用 JS（`render.js` はビルドと共用） |
-| `scripts/` | `build.mjs`（静的生成）`check.mjs`（機械チェック）`test.mjs` |
-| `ops/backlog.json` | 作るツールの候補リスト |
+| `scripts/` | `build.mjs`（静的生成・多言語）`check.mjs`（機械チェック。`--only en/<slug>` で1本だけ）`test.mjs` `i18n.mjs`（画面の固定文言） |
+| `ops/backlog.json` | 作るツールの候補リスト（`locale` が `en` のものは英語版、無いものは日本語版） |
 | `ops/log.md` | 実行ログ（1 実行 1 行、追記のみ） |
 | `ops/reports/` | 月次レポート |
 | `.claude/agents/` | サブエージェント（モデル指定済み） |
@@ -44,7 +48,7 @@ Fable を呼ぶ前に必ず `npm run verify` と `npm run check:sources -- <slug
 2. `ops/log.md` の末尾を読み、前回の実行で中断・失敗がないか確認する。
 
 ### 1. 定期作業（該当日のみ）
-- **月曜日** かつ `ops/backlog.json` の `status: "todo"` が15件未満：`topic-scout` を呼び、返ってきた候補のうち重複しないものを backlog に追加する。
+- **月曜日** かつ、ある言語の `status: "todo"` が15件未満：その言語を指定して `topic-scout` を呼び（例：「locale: en の候補を10件」）、返ってきた候補のうち重複しないものを backlog に追加する。
 - **毎月1日**：`ops-reporter` を呼んで前月のレポートを作る。
 - **毎月1日**：`meta.json` に `"reviewYearly": true` があるページのうち、`updated` が11か月以上前のものを1件選び、制度・数値が最新か確認して必要なら更新する（更新したら手順 5 の審査対象にする）。
 
@@ -57,8 +61,9 @@ Fable を呼ぶ前に必ず `npm run verify` と `npm run check:sources -- <slug
 4. `npm run verify`（広告タグの安全チェックを含む）を通し、広告を表示するページを `fable-reviewer` の審査対象に含める（PR 表記・関連性・誇大表現の確認）。合格したら手順 6 で公開し、Issue に「設置したページ」をコメントして close する。
 5. この作業は新規ツール作成とは別枠で行ってよい（同じ日に両方公開してよい）。
 
-### 2. トピックを選ぶ
-`ops/backlog.json` の `status: "todo"` から、`priority` が小さい順 → `complexity` が low → medium → high の順で最初の1件を選ぶ。`content/tools/` に同じ slug が既にあれば `status: "done"` にして次へ。
+### 2. 言語とトピックを選ぶ
+その日の言語を決める：JST の日付（日）が偶数なら英語（`en`）、奇数なら日本語（`ja`）。その言語の `todo` が無ければもう一方にする。
+`ops/backlog.json` のうち、その言語（`locale` が無いものは `ja`）で `status: "todo"` のものから、`priority` が小さい順 → `complexity` が low → medium → high の順で最初の1件を選ぶ。その言語のツールのフォルダ（`content/tools/` または `content/en/tools/`）に同じ slug が既にあれば `status: "done"` にして次へ。
 
 ### 3. 調査
 - 計算式・制度・数値は、官公庁・法令（e-Gov）・業界団体など一次情報を WebSearch／WebFetch で確認する。確認したページを `meta.json` の `sources` に入れる（1件以上、https のみ）。
@@ -66,7 +71,7 @@ Fable を呼ぶ前に必ず `npm run verify` と `npm run check:sources -- <slug
 - 毎年変わる制度（税率・控除額・保険料率など）を扱う場合は、今年度の値を確認し、`meta.json` に `"reviewYearly": true` を付ける。
 
 ### 4. 執筆（下の「ツールの仕様」に従う）
-1. 似た種類の既存ツールを1つ読んで、書き方・粒度をそろえる（お金系なら `loan`、日付系なら `date-calc`、モード切替があるなら `percent`）。
+1. 似た種類の既存ツールを1つ読んで、書き方・粒度をそろえる。日本語：お金系なら `loan`、日付系なら `date-calc`、モード切替があるなら `percent`。英語：`content/en/tools/percentage-calculator`（基準）、お金系なら `mortgage-calculator`、日付系なら `date-calculator`。
 2. `calc.js` → `calc.test.mjs` → `meta.json` → `article.html` の順に書く。本文の計算例の数値は、必ず `node -e` で calculate() を実行して得た値を使う（手計算の数値を書かない）。
 3. 関連する既存ツールが2本以上あれば、その中の1〜2本の `meta.related` に新しい slug を追加する（内部リンク）。
 4. `npm run verify` が通るまで直す。
@@ -137,6 +142,16 @@ export function calculate(values) {
 }
 ```
 
+### 英語版の追加ルール
+- 置き場所は `content/en/tools/<slug>/`。共通ライブラリは `../../../lib/dates.js` のように3階層上を参照する（`formatEn` などがある）。
+- meta.json：title 20〜70字、shortTitle 32字以内、description 70〜170字、lead 60字以上、keywords は英語の実際の検索語を5つ以上。日本語版に同じ内容のツールがあれば `"alternate": { "ja": "<slug>" }`。
+- 本文は700語以上（空白を除き3,500字以上・機械チェックあり）、h2 を4つ以上。米国英語で、中学生にもわかる平易な文。
+- 出典は米国などの政府機関・規制当局・標準化団体（BLS、CFPB、SEC Investor.gov、NIST、IRS など）を優先する。
+- 金額は `prefix`（`$` など）で表示し、セント単位で計算する。入力欄の通貨記号も `unit` ではなく `prefix` に書く。通貨を選べる場合は記号の切り替えだけで、為替換算はしない。
+- 単語の単位は先頭にスペースを付け、単数・複数を切り替える（`unit: n === 1 ? ' day' : ' days'`）。`%` や `×` には付けない（機械チェックあり）。
+- 2つの日付の間の「年・月・日」の数え方はツールによって月末で差が出る。違いがあり得ることを注記する。
+- 日本語の文字（全角文字）を1文字も含めない（機械チェックあり）。
+
 ### article.html（本文のみ。h1・script は書かない）
 - h2 を3つ以上、本文1,200字以上（機械チェックあり）。標準構成：このツールでできること／使い方／計算方法（計算式は `<p class="formula">`）／計算例（表）／よくある質問（`<dl class="faq">`）／注意点（`<div class="note">`）。
 - 中学生にもわかる日本語。1文を短く。専門用語は最初に説明する。
@@ -149,7 +164,7 @@ export function calculate(values) {
 - アフィリエイトのリンクやタグを自分で作ること。`config/affiliates.json` の `html` はオーナーが ASP の管理画面から貼ったものだけを使う。
 - `config/site.json` の広告・アナリティクス ID を変更すること（オーナーが設定する）。
 - 他サイトの文章・表のコピー。実在の企業や人物になりすますこと。
-- サイトに公開するページ（記事・固定ページ・meta）に、制作に Claude や AI を使っていることを書くこと（オーナーの方針）。ただし「専門家が執筆」「人が監修」など事実と異なる制作体制も書かない。
+- サイトに公開するページ（記事・固定ページ・meta。日本語・英語とも）に、制作に Claude や AI を使っていることを書くこと（オーナーの方針。機械チェックあり）。ただし「専門家が執筆」「人が監修」など事実と異なる制作体制も書かない。
 - 1日に2本以上公開すること（品質とスパムポリシーのため。1日1本まで）。
 - force push、履歴の書き換え、`ops/log.md` の過去行の削除。
 - テストを通すためにテストの期待値を根拠なく書き換えること。

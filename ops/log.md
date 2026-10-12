@@ -11,3 +11,9 @@
 | 2026-10-12 | publish | electricity | Fable 92（1回目 92 で合格、改善反映後に再確認） | 初期リリース：電気代計算 |
 | 2026-10-12 | publish | percent | Fable 90（1回目 88 で合格、改善反映後に再確認） | 初期リリース：パーセント計算 |
 | 2026-10-12 | blocked | shohizei | Fable 91（2回目合格。1回目 78：税込→税抜の端数処理、飲食料品1%引下げ法案への言及漏れ） | クラウド初回テスト。push が 403（Claude GitHub App 未インストール）で公開できず。App 導入後の次回実行で再作成 |
+| 2026-10-12 | publish | en/percentage-calculator | Fable 92（1回目 92 で合格、軽微修正後に再確認） | 英語版初期リリース（基準ツール） |
+| 2026-10-12 | publish | en/compound-interest-calculator | Fable 92（1回目 93 で合格、軽微修正後に再確認） | 英語版初期リリース |
+| 2026-10-12 | publish | en/mortgage-calculator | Fable 92（1回目 91 で合格、軽微修正後に再確認） | 英語版初期リリース（PITI・PMI 78%/80% は CFPB で確認） |
+| 2026-10-12 | publish | en/age-calculator | Fable 92（2回目合格。1回目 78：2/29生まれの年齢と次の誕生日の矛盾、単位のスペース） | 英語版初期リリース |
+| 2026-10-12 | publish | en/date-calculator | Fable 90（1回目合格） | 英語版初期リリース |
+| 2026-10-12 | publish | en/tip-calculator | Fable 91（1回目 90 で合格、軽微修正後に再確認） | 英語版初期リリース |

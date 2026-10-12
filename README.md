@@ -2,7 +2,8 @@
 
 積立・ローン・日付・年齢・電気代・パーセントなどの計算ツールと解説記事を、Claude Code が毎日1本ずつ追加していく Web サイトです。Fable の審査に合格したページだけが自動で公開されます。収益源は広告（Google AdSense）とアフィリエイト（A8.net など）、目標は月3万円です。
 
-- サイト：https://keisan-lab.site/
+- サイト：https://keisan-lab.site/（日本語「暮らしの計算ラボ」）、https://keisan-lab.site/en/（英語「Keisan Lab」。英語圏、主に米国の需要に合わせたツール。日本語版の翻訳ではない）
+- 毎日の自動実行は、JST の日付が奇数の日は日本語、偶数の日は英語のツールを1本追加します
 - 運営マニュアル（Claude が毎回読む手順書）：[CLAUDE.md](CLAUDE.md)
 - 実行ログ：[ops/log.md](ops/log.md)、候補リスト：[ops/backlog.json](ops/backlog.json)
 
@@ -38,7 +39,8 @@ GitHub Actions が再検証 → GitHub Pages に公開（納品）
 1. **アフィリエイト（A8.net）の広告を渡す**：A8.net で提携が承認されたら「広告リンク作成」でウェブサイト用のタグ（テキスト、または 300×250 程度までのバナー）をコピーし、このリポジトリの Issue →「New issue」→「広告タグの登録」に貼って送信します（スマホからでも可）。翌朝の自動実行が、合うページを選び、安全チェックと Fable の審査を通してから設置し、Issue に結果をコメントします。A8.net のパスワードは Claude に渡さないでください（規約上、ID・パスワードの第三者利用は会員の責任になり、システムを第三者に使わせることも禁止されています）。
 2. ~~独自ドメインを取る~~ → 完了（`keisan-lab.site`、Cloudflare で取得。DNS は GitHub Pages の A レコード4件＋`www` の CNAME、すべてプロキシなし）。
 3. **Google Search Console に登録する**：HTML タグ方式の確認コードを `config/site.json` の `searchConsoleVerification` に入れ、サイトマップ（`/sitemap.xml`）を送信します。検索に載るのが早くなります。
-4. **AdSense に申請する（ツールが20〜30本になってから）**：承認されたら `config/site.json` の `adsense.client`（`ca-pub-…`）を設定します。自動広告と `ads.txt` が自動で出力されます。
+4. **AdSense に申請する（ツールが20〜30本になってから）**：承認されたら `config/site.json` の `adsense.client`（`ca-pub-…`）を設定します。自動広告と `ads.txt` が自動で出力されます。日本語版と英語版の両方に同じアカウントで広告が出ます。英語版には欧州（EEA）・英国・スイスからの訪問者も来るため、承認後に AdSense 管理画面の「プライバシーとメッセージ」で **GDPR の同意メッセージを有効化**してください（Google の規約上、これらの地域に広告を出すには認定済みの同意管理ツールが必要です。AdSense 内蔵のものは無料）。
+4. **英語版の収益（任意）**：A8.net の広告は日本向けなので、英語版の収益は当面 AdSense だけです。英語ページにも成果報酬広告を置きたい場合は、Amazon アソシエイト（米国）などに登録し、承認されたタグを同じ「広告タグの登録」フォームで渡してください（英語ページ用の枠は `config/affiliates.en.json`。対応するドメインをチェックに追加します）。
 5. **問い合わせ窓口**：現在は GitHub の Issue に設定しています。AdSense 審査を通りやすくするには、Google フォームを作って `config/site.json` の `contactUrl` を差し替えるのがおすすめです。
 
 設定ファイルを変えたら、GitHub の Web 画面から直接編集して保存（コミット）すれば、数分で自動的に反映されます。

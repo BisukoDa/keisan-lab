@@ -30,7 +30,7 @@ async function init(root) {
     try {
       result = mod.calculate(values);
     } catch {
-      result = { error: '計算できませんでした。入力内容を確認してください。' };
+      result = { error: root.dataset.msgError };
     }
     out.innerHTML = renderResults(result);
     if (syncUrl) history.replaceState(null, '', `?${new URLSearchParams(raw)}`);
@@ -43,15 +43,16 @@ async function init(root) {
   });
 
   const copyBtn = root.querySelector('[data-copy-url]');
+  const copyLabel = copyBtn?.textContent;
   copyBtn?.addEventListener('click', async () => {
     update(true);
     try {
       await navigator.clipboard.writeText(location.href);
-      copyBtn.textContent = 'コピーしました';
+      copyBtn.textContent = root.dataset.msgCopied;
     } catch {
-      copyBtn.textContent = 'コピーできませんでした';
+      copyBtn.textContent = root.dataset.msgCopyFailed;
     }
-    setTimeout(() => (copyBtn.textContent = 'この条件のURLをコピー'), 2000);
+    setTimeout(() => (copyBtn.textContent = copyLabel), 2000);
   });
 
   update(false);

@@ -1,0 +1,80 @@
+<h2>What this calculator does</h2>
+<p>This date calculator answers the two questions people ask most often about the calendar. First, how many days are there between two dates? Second, what date do you get if you add or subtract a number of days, weeks, months or years from a starting date? Both modes work with any date from January 1, 1000 to December 31, 9999, and the result updates as you change a field.</p>
+<ul>
+<li><strong>Days between two dates.</strong> Find out how many days are left until a deadline, a flight, a wedding or the end of the year, or how many days have passed since an event.</li>
+<li><strong>Add or subtract time.</strong> Find the date that is 30 days after an invoice, 90 days after a start date, six months before a renewal, or two years from today.</li>
+<li><strong>Weekdays and weekends.</strong> For every date range you also get the number of Monday-to-Friday days and the number of Saturdays and Sundays, which is a quick way to estimate working days.</li>
+</ul>
+<p>The calculator works on calendar dates only, so time zones and daylight saving time never change the answer. Dates follow the Gregorian calendar, the civil calendar used in most of the world.</p>
+
+<h2>How to use it</h2>
+<p><strong>To count the days between two dates:</strong> choose "Days between two dates", then pick a start date and an end date. The start date is filled in with today's date and the end date with a date 100 days later, so you can simply change what you need. If you want both the first and the last day to be counted, set "Include the end date" to Yes. If the end date is earlier than the start date, the calculator swaps the two dates for you and says so.</p>
+<p><strong>To add or subtract time:</strong> choose "Add or subtract time from a date", pick the start date, and type the number of years, months, weeks and days. Use a negative number to move backward in time. For example, enter -2 in the months box to find the date two months earlier. You can fill in more than one box at once.</p>
+<p>The results show the answer in several forms: total days, weeks and days, an approximate breakdown in years, months and days, and the number of weekdays and weekend days. In add mode you also see the day of the week and the total number of days between the start date and the result.</p>
+
+<h2>How the count works</h2>
+<p>The only decision that changes the answer is whether you count the start date, the end date, both or neither. The calculator counts whole days on the calendar, so the plain difference between two dates is the number of midnights you cross.</p>
+<p class="formula">Days between = end date − start date<br>Counting both dates = end date − start date + 1<br>Weekdays + weekend days = total days counted</p>
+<p>With the default setting, the start date is not counted. January 1 to January 2 is 1 day, because only one night passes. If you choose to include the end date, both January 1 and January 2 are counted and the answer is 2 days. Use the default when you ask "how many days until" or "how long ago". Use the inclusive setting when each calendar day counts, such as the days of a hotel booking where the first and last days are both used, a leave request, or a streak of daily entries.</p>
+<p>Leap years are handled automatically. A year is a leap year when it is divisible by 4, except that century years must also be divisible by 400. So 2024 and 2000 are leap years with 366 days, while 2100 is not. This is the rule of the Gregorian calendar, as described by the U.S. Naval Observatory.</p>
+<p>The years, months and days breakdown counts whole calendar months from the first date, then the days left over. Months have different lengths, so this breakdown is approximate and should be read as elapsed calendar time, not as a fixed number of days.</p>
+
+<h2>Worked examples</h2>
+<p>Each row below was produced by this calculator. Dates are written as year-month-day.</p>
+<table>
+<thead><tr><th>Question</th><th>Setting</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>2026-10-12 to 2026-12-25 (Christmas)</td><td>End date not counted</td><td>74 days (10 weeks and 4 days), 54 weekdays and 20 weekend days</td></tr>
+<tr><td>2026-10-12 to 2026-12-25</td><td>End date counted</td><td>75 days, 55 weekdays and 20 weekend days</td></tr>
+<tr><td>2026-01-01 to 2026-12-31</td><td>End date not counted</td><td>364 days (52 weeks)</td></tr>
+<tr><td>2026-01-01 to 2026-12-31</td><td>End date counted</td><td>365 days, 261 weekdays and 104 weekend days</td></tr>
+<tr><td>2024-01-01 to 2024-12-31</td><td>End date counted</td><td>366 days (a leap year)</td></tr>
+<tr><td>2026-10-12 to 2027-10-12</td><td>End date not counted</td><td>365 days (exactly 1 year)</td></tr>
+<tr><td>2026-10-12 plus 90 days</td><td>Add mode</td><td>Sunday, January 10, 2027</td></tr>
+<tr><td>2026-10-12 minus 30 days</td><td>Add mode</td><td>Saturday, September 12, 2026</td></tr>
+<tr><td>2026-10-12 plus 6 months</td><td>Add mode</td><td>Monday, April 12, 2027 (182 days later)</td></tr>
+<tr><td>2026-10-12 plus 1 year, 2 months, 1 week and 3 days</td><td>Add mode</td><td>Wednesday, December 22, 2027 (436 days later)</td></tr>
+</tbody>
+</table>
+<p>Notice that a full year can be 364, 365 or 366 days depending on whether you count the end date and whether a leap day falls in the range. Two calendar years that look identical can also differ by a day, which is why it is safer to let the calculator count than to multiply by 365.</p>
+
+<h2>Adding months and month-end dates</h2>
+<p>Adding days is simple because every day has the same length. Adding months is not, because months have 28, 29, 30 or 31 days. What is one month after January 31? There is no February 31, so the calculator uses the most common convention: if the day does not exist in the new month, it moves to the last day of that month.</p>
+<table>
+<thead><tr><th>Start date</th><th>Add</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>2024-01-31</td><td>1 month</td><td>Thursday, February 29, 2024 (leap year)</td></tr>
+<tr><td>2025-01-31</td><td>1 month</td><td>Friday, February 28, 2025</td></tr>
+<tr><td>2026-08-31</td><td>1 month</td><td>Wednesday, September 30, 2026</td></tr>
+<tr><td>2026-03-31</td><td>-1 month</td><td>Saturday, February 28, 2026</td></tr>
+<tr><td>2024-02-29</td><td>1 year</td><td>Friday, February 28, 2025</td></tr>
+<tr><td>2026-01-31</td><td>1 month and 1 day</td><td>Sunday, March 1, 2026</td></tr>
+</tbody>
+</table>
+<p>The calculator applies the parts in a fixed order: years first, then months, then weeks and days. In the last row, January 31 plus one month becomes February 28, and the extra day then makes it March 1. If you need a different rule for a contract, check the wording, because some agreements say "30 days" where others say "one month", and the two are not the same thing.</p>
+<p>Because of this rule, adding a month and then subtracting a month does not always bring you back to the start. January 31 plus one month is February 28, but February 28 minus one month is January 28.</p>
+
+<h2>Business days and weekdays</h2>
+<p>The weekday count is the number of Mondays, Tuesdays, Wednesdays, Thursdays and Fridays inside the days that were counted. The weekend count is the number of Saturdays and Sundays. Together they always add up to the total number of days.</p>
+<p>The weekday count is a good estimate of working days, but it is not a full business day calculation. <strong>Public holidays are not excluded</strong>, because holidays differ by country, region and employer, and they change from year to year. To find working days, subtract the holidays that fall on weekdays in your range. For example, the 54 weekdays between 2026-10-12 and 2026-12-25 would drop by one for each weekday holiday you observe in that period.</p>
+<p>When you count weekdays for a deadline, remember that the start date may or may not be a working day for you. The default setting starts counting on the day after the start date, which is how most "within N business days" rules are read. Switch on the inclusive option when the first day itself is a working day that you want to include.</p>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>How many days are there between two dates?</dt>
+<dd>Subtract the earlier date from the later one. Between 2026-01-01 and 2026-12-31 that is 364 days, or 365 days if you also count the end date. The calculator does this for any pair of dates and handles leap years for you.</dd>
+<dt>Does the calculator count the start date?</dt>
+<dd>No, not by default. It counts the days after the start date up to and including the end date. Choose "Yes" for "Include the end date" if you want both the start and end dates counted, which adds one day.</dd>
+<dt>What is the date 90 days from today?</dt>
+<dd>Choose "Add or subtract time from a date", leave the start date on today, set days to 90 and everything else to 0. As an example, 90 days after 2026-10-12 is Sunday, January 10, 2027.</dd>
+<dt>How do I count backward?</dt>
+<dd>Enter negative numbers in add mode. Entering -30 days from 2026-10-12 gives Saturday, September 12, 2026. In between mode you can enter the dates in either order, because the calculator swaps them if needed.</dd>
+<dt>Are weekends and holidays included in the total?</dt>
+<dd>Weekends are included in the total days, and the weekday and weekend rows show how they split. Public holidays are not removed, so subtract them yourself if you need working days.</dd>
+<dt>Why does January 31 plus one month give February 28 or 29?</dt>
+<dd>February has no 31st day, so the result moves to the last day of February. That is 29 in leap years such as 2024 and 28 in other years such as 2025.</dd>
+<dt>Is it accurate for leap years?</dt>
+<dd>Yes. The calculator follows the Gregorian rule that a year divisible by 4 is a leap year unless it is a century year not divisible by 400. For example, 2000 and 2024 are leap years, and 2100 is not.</dd>
+<dt>What range of dates is supported?</dt>
+<dd>From January 1, 1000 to December 31, 9999. Dates before the Gregorian calendar was adopted in a given country are shown as if that calendar had always been in use.</dd>
+</dl>

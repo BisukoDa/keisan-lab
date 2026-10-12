@@ -1,0 +1,15 @@
+{
+  "title": "Compound Interest Calculator with Monthly Contributions",
+  "shortTitle": "Compound Interest Calculator",
+  "description": "Free compound interest calculator: enter a starting deposit, monthly contributions, rate and years to see your future balance, interest earned, APY and a yearly table.",
+  "lead": "How much could your savings grow if you add a little every month and let the interest earn interest? Enter your numbers, pick how often interest compounds and see the future balance, the interest earned and the effective annual yield.",
+  "category": "money",
+  "keywords": ["compound interest calculator", "compound interest calculator with monthly contributions", "investment growth calculator", "savings growth calculator", "compound interest formula", "effective annual yield calculator", "APY calculator"],
+  "alternate": { "ja": "tsumitate" },
+  "sources": [
+    { "title": "Investor.gov (U.S. SEC): Compound Interest Calculator", "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator" },
+    { "title": "Consumer Financial Protection Bureau: Regulation DD (12 CFR 1030) Appendix A, Annual Percentage Yield Calculation", "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}

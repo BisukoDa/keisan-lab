@@ -15,5 +15,12 @@
     "ga4": "",
     "cloudflareToken": ""
   },
-  "searchConsoleVerification": ""
+  "searchConsoleVerification": "",
+  "i18n": {
+    "en": {
+      "name": "Keisan Lab",
+      "tagline": "Free online calculators with the math explained",
+      "description": "Free calculators for percentages, compound interest, mortgages, dates, ages, tips and more. Every tool runs in your browser and shows the formula with worked examples."
+    }
+  }
 }

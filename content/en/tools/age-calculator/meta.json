@@ -1,0 +1,15 @@
+{
+  "title": "Age Calculator: Exact Age in Years, Months and Days",
+  "shortTitle": "Age Calculator",
+  "description": "Free age calculator: enter a date of birth to see your exact age in years, months and days, total days, weeks and months, birth weekday and next birthday.",
+  "lead": "How old am I, exactly? Enter a date of birth and get the age in years, months and days, how many days you have been alive, the weekday you were born and the countdown to your next birthday.",
+  "category": "date",
+  "keywords": ["age calculator", "how old am i", "age in years months and days", "how many days old am i", "date of birth calculator", "calculate age from birthdate", "next birthday countdown", "leap day birthday"],
+  "alternate": { "ja": "age" },
+  "sources": [
+    { "title": "U.S. Naval Observatory: Calendars (Gregorian leap year rule)", "url": "https://aa.usno.navy.mil/faq/calendars" },
+    { "title": "legislation.gov.uk: Family Law Reform Act 1969, section 9 (time at which a person attains a particular age)", "url": "https://www.legislation.gov.uk/ukpga/1969/46/section/9" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}

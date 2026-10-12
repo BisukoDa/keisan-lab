@@ -1,0 +1,16 @@
+{
+  "title": "Mortgage Calculator with Taxes, Insurance & PMI (PITI Payment)",
+  "shortTitle": "Mortgage Calculator",
+  "description": "Free mortgage payment calculator: enter price, down payment, rate and term to see your monthly PITI payment with property tax, insurance, HOA dues and PMI.",
+  "lead": "How much will a house really cost each month? Enter the price, down payment, rate and term to see principal and interest plus property tax, insurance, HOA dues and PMI, with a year-by-year schedule.",
+  "category": "money",
+  "keywords": ["mortgage calculator", "mortgage payment calculator with taxes and insurance", "PITI calculator", "mortgage calculator with PMI", "monthly mortgage payment", "15 vs 30 year mortgage", "amortization schedule"],
+  "alternate": { "ja": "loan" },
+  "sources": [
+    { "title": "Consumer Financial Protection Bureau: When can I remove private mortgage insurance (PMI) from my loan?", "url": "https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/" },
+    { "title": "Consumer Financial Protection Bureau: What is an escrow or impound account?", "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-or-impound-account-en-140/" },
+    { "title": "Consumer Financial Protection Bureau: What is private mortgage insurance?", "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}

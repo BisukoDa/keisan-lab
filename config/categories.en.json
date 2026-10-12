@@ -1,0 +1,8 @@
+[
+  { "id": "money", "name": "Finance", "description": "Free calculators for interest, loans, mortgages, savings and other money questions." },
+  { "id": "date", "name": "Date & Time", "description": "Count days between dates, add or subtract days, and work out exact ages." },
+  { "id": "life", "name": "Everyday", "description": "Handy calculators for tips, bills, energy costs and other everyday numbers." },
+  { "id": "math", "name": "Math", "description": "Percentages, ratios, conversions and other quick math tools." },
+  { "id": "work", "name": "Work & Pay", "description": "Calculators for hourly pay, salary, overtime and other work-related numbers." },
+  { "id": "health", "name": "Health & Fitness", "description": "Calculators for body measurements and activity, with the formulas explained." }
+]

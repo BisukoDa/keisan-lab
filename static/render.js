@@ -19,15 +19,19 @@ export function formatNumber(value, digits = 0) {
   return numberFormat(digits).format(Object.is(value, -0) ? 0 : value);
 }
 
+// 数値の書式（3桁区切り・小数点）は ja-JP と en-US で同じなので共通で使う。
+// 通貨記号など前に付ける文字は prefix（例 '$'）、後ろに付ける単位は unit（例 '円'）で指定する。
 function formatCell(cell) {
-  if (cell && typeof cell === 'object') return formatNumber(cell.value, cell.digits ?? 0) + (cell.unit ?? '');
+  if (cell && typeof cell === 'object') return (cell.prefix ?? '') + formatNumber(cell.value, cell.digits ?? 0) + (cell.unit ?? '');
   if (typeof cell === 'number') return formatNumber(cell, 0);
   return String(cell);
 }
 
 export function formatItem(item) {
   const body = typeof item.value === 'number' ? formatNumber(item.value, item.digits ?? 0) : String(item.value);
-  return body + (item.unit ?? '');
+  // 負の金額は「-$1,234」の形にする
+  if (item.prefix && body.startsWith('-')) return '-' + item.prefix + body.slice(1) + (item.unit ?? '');
+  return (item.prefix ?? '') + body + (item.unit ?? '');
 }
 
 // calculate() の戻り値 { error } | { items, table, notes } を HTML にする

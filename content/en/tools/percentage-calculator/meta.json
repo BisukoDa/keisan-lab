@@ -1,0 +1,15 @@
+{
+  "title": "Percentage Calculator: Percent Of, Change, Difference & Discount",
+  "shortTitle": "Percentage Calculator",
+  "description": "Free percentage calculator: find X% of Y, what percent one number is of another, percentage change, percentage difference, discounts and markups, with formulas.",
+  "lead": "What is 15% of 200? What percent is 30 of 120? How much did a price go up? Pick a question, enter two numbers and get the answer instantly, with the formula behind it.",
+  "category": "math",
+  "keywords": ["percentage calculator", "percent of a number", "percentage change calculator", "percentage increase", "percent off calculator", "percentage difference", "what percent is x of y"],
+  "alternate": { "ja": "percent" },
+  "sources": [
+    { "title": "U.S. Bureau of Labor Statistics: Calculating percent changes", "url": "https://www.bls.gov/cpi/factsheets/calculating-percent-changes.htm" },
+    { "title": "NIST Guide to the SI, Chapter 7: Rules and Style Conventions for Expressing Values of Quantities", "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-7-rules-and-style-conventions-expressing-values" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}

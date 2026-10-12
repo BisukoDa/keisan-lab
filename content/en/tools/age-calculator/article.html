@@ -1,0 +1,57 @@
+<h2>What this calculator does</h2>
+<p>Most people know their age in whole years, but sometimes you need more detail. A form may ask for your age in months, a milestone may be counted in days, or you may simply be curious how long you have been alive. Enter a date of birth and this calculator shows your exact age and several other views of the same span of time.</p>
+<ul>
+<li><strong>Exact age</strong> in years, months and days.</li>
+<li><strong>Age in years</strong>, the number most forms ask for.</li>
+<li><strong>Total months</strong> since birth.</li>
+<li><strong>Total weeks and days</strong>, for example "1,895 weeks and 3 days".</li>
+<li><strong>Total days</strong> since birth.</li>
+<li><strong>Day of the week</strong> you were born.</li>
+<li><strong>Next birthday</strong>, with the date, the number of days to wait and the age you will turn.</li>
+</ul>
+
+<h2>How to use it</h2>
+<p>Type or pick your date of birth. The second box, "Age on this date", is set to today, so you get your current age straight away. Change it to any other date to answer a different question: how old was someone on a past date, or how old will you be on the day of an event next year? The results update as you change either date.</p>
+<p>The date of birth must be a real calendar date, and the second date cannot be earlier than the first. Both dates must fall between the years 1000 and 9998. If something is wrong, the calculator tells you what to fix instead of showing a number.</p>
+
+<h2>How age is calculated</h2>
+<p>Age is counted with the same steps you would use by hand. First count the whole years, then the whole months that are left, then the days that are left over. Everything is worked out from calendar dates alone, so time zones and clock times never affect the result.</p>
+<p class="formula">years = year(as-of) − year(birth)<br>months = month(as-of) − month(birth)<br>days = day(as-of) − day(birth)<br>If days &lt; 0: add the length of the month before the as-of month, and subtract 1 month<br>If months &lt; 0: add 12 months, and subtract 1 year<br>Total days = number of days from the birth date to the as-of date</p>
+<p>The borrowing step is the part where calculators can disagree. This one borrows the number of days in the month before the "age on" date. For a birth date of 31 January and an "age on" date of 1 March 2026, the day count is 1 − 31 = −30. Borrowing February's 28 days still leaves −2, so the calculator steps back one more month and adds January's 31 days. The result is 0 months and 29 days, which matches the 29 days that really passed. If you use another website you may see a difference of a day or two in cases like this, because there is no single official rule for counting months of unequal length. Total days, weeks and the age in whole years do not depend on this choice.</p>
+<p>The calendar used is the Gregorian calendar, in which a year is a leap year if it is divisible by 4, except for century years, which must be divisible by 400. According to the U.S. Naval Observatory, 1700, 1800 and 1900 were not leap years, but 2000 was. Leap years are included automatically in every count.</p>
+
+<h2>Worked examples</h2>
+<p>All the examples use a fixed "age on" date of 12 October 2026, so you can check them yourself.</p>
+<table>
+<thead><tr><th>Date of birth</th><th>Exact age</th><th>Total days</th><th>Weeks and days</th><th>Born on</th><th>Next birthday</th></tr></thead>
+<tbody>
+<tr><td>15 June 1990</td><td>36 years, 3 months, 27 days</td><td>13,268</td><td>1,895 weeks and 3 days</td><td>Friday</td><td>15 June 2027 (in 246 days)</td></tr>
+<tr><td>1 January 2000</td><td>26 years, 9 months, 11 days</td><td>9,781</td><td>1,397 weeks and 2 days</td><td>Saturday</td><td>1 January 2027 (in 81 days)</td></tr>
+<tr><td>8 March 1985</td><td>41 years, 7 months, 4 days</td><td>15,193</td><td>2,170 weeks and 3 days</td><td>Friday</td><td>8 March 2027 (in 147 days)</td></tr>
+<tr><td>25 December 2010</td><td>15 years, 9 months, 17 days</td><td>5,770</td><td>824 weeks and 2 days</td><td>Saturday</td><td>25 December 2026 (in 74 days)</td></tr>
+<tr><td>31 March 2015</td><td>11 years, 6 months, 11 days</td><td>4,213</td><td>601 weeks and 6 days</td><td>Tuesday</td><td>31 March 2027 (in 170 days)</td></tr>
+<tr><td>29 February 2000</td><td>26 years, 7 months, 13 days</td><td>9,722</td><td>1,388 weeks and 6 days</td><td>Tuesday</td><td>1 March 2027 (in 140 days)</td></tr>
+</tbody>
+</table>
+<p>Take the first row. From 15 June 1990 to 15 June 2026 is exactly 36 years. From 15 June to 15 September is 3 months, and from 15 September to 12 October is 27 more days. Together that is 36 years, 3 months and 27 days, or 435 months in total (36 × 12 + 3).</p>
+
+<h2>Leap-day birthdays</h2>
+<p>A person born on 29 February has a real birthday only in leap years. In a common year, this calculator counts the birthday on 1 March, the first day after 28 February, and that is also the day the age in years goes up, so every result on the page agrees. For the person born on 29 February 2000, the next birthday after 12 October 2026 is therefore 1 March 2027, in 140 days, when the person turns 27. Many people born on 29 February celebrate on 28 February instead; that is a personal choice, and the calculator simply needs one consistent rule.</p>
+<p>When the age in whole years officially goes up is a different question, and it depends on where you are. Some places treat 1 March as the day the age increases, while others use 28 February, and the rules for things such as driving, voting or retirement can differ by country and by the law involved. In England and Wales, for example, the Family Law Reform Act 1969 says a person attains a given age at the start of the relevant anniversary of the date of birth, and the text does not say which day that is for a leap-day birth. Check the rule that applies to you if the exact day matters.</p>
+<p>To keep the counts consistent, the calculator moves the year count forward on 1 March in common years, the same day it shows as the birthday. For the same person, the age is 0 years, 11 months and 30 days on 28 February 2001, and 1 year, 0 months and 0 days on 1 March 2001. In leap years, such as 2024, the birthday falls on 29 February as normal.</p>
+
+<h2>Common questions about age</h2>
+<dl class="faq">
+<dt>How old am I in days?</dt>
+<dd>The "Total days" result counts every day from your date of birth to the "age on" date. The day of birth is not counted, so someone born today is 0 days old. Someone born on 15 June 1990 is 13,268 days old on 12 October 2026.</dd>
+<dt>Why does another age calculator give a slightly different number?</dt>
+<dd>Total days should always match. The years, months and days split can differ by a day or two around the end of a month, because calculators handle months of different lengths in different ways. This page explains its method above, and you can use the total days as a cross-check.</dd>
+<dt>What day of the week was I born?</dt>
+<dd>The result shows the weekday of your date of birth, for example Friday for 15 June 1990. It uses the Gregorian calendar for every date, including dates before the calendar was adopted in your country.</dd>
+<dt>Can I find my age on a past or future date?</dt>
+<dd>Yes. Change the "Age on this date" box. You can find the age someone was on a past date, or the age they will be on a future one. The date must not be earlier than the date of birth.</dd>
+<dt>How is the next birthday worked out?</dt>
+<dd>It is the first birthday on or after the "age on" date. If that date is your birthday, the calculator says it is today. Otherwise it shows the date, the days remaining and the age you will turn.</dd>
+<dt>Does the time of day or my time zone matter?</dt>
+<dd>No. Only calendar dates are used, so the result is the same wherever you are and does not change at midnight in a different time zone.</dd>
+</dl>

@@ -1,0 +1,82 @@
+<h2>What this calculator does</h2>
+<p>Compound interest means you earn interest on your original money and also on the interest you already earned. Over a few months the effect is small. Over many years it becomes large, which is why people call it "interest on interest".</p>
+<p>This calculator shows how a savings or investment balance could grow when you start with a lump sum, add the same amount every month, and earn a steady yearly rate. It gives you four results:</p>
+<ul>
+<li><strong>Future balance:</strong> how much you would have at the end.</li>
+<li><strong>Total contributions:</strong> your initial deposit plus every monthly deposit.</li>
+<li><strong>Total interest earned:</strong> the future balance minus your contributions.</li>
+<li><strong>Effective annual yield (APY):</strong> the real yearly growth rate once compounding is counted.</li>
+</ul>
+<p>A collapsible table also shows the year-by-year story: your contributions so far, the interest earned in that year and the balance at the end of the year.</p>
+
+<h2>How to use it</h2>
+<ol>
+<li><strong>Currency symbol.</strong> Pick $, €, £, C$, A$, ₹ or ¥. This only changes the symbol shown. Nothing is converted. Yen amounts are shown without decimals.</li>
+<li><strong>Initial deposit.</strong> The money you start with. It can be 0 if you only plan to add monthly.</li>
+<li><strong>Monthly contribution.</strong> The amount you add at the end of every month. It can be 0 if you will not add more.</li>
+<li><strong>Annual interest rate.</strong> The yearly rate you expect, from -20% to 50%. This is a guess, not a promise.</li>
+<li><strong>Length of time.</strong> A whole number of years from 1 to 60.</li>
+<li><strong>Compounding frequency.</strong> How often interest is added: annually, semiannually, quarterly, monthly or daily.</li>
+</ol>
+<p>The results update as you type. You need an initial deposit, a monthly contribution, or both.</p>
+
+<h2>The compound interest formula</h2>
+<p>For a single deposit with no extra contributions, the standard compound interest formula is:</p>
+<p class="formula">A = P × (1 + r ÷ n)<sup>n × t</sup></p>
+<p>Here <strong>A</strong> is the final amount, <strong>P</strong> is the starting amount (the principal), <strong>r</strong> is the yearly rate written as a decimal (7% is 0.07), <strong>n</strong> is how many times a year interest compounds, and <strong>t</strong> is the number of years.</p>
+<p>When you also add money every month, this calculator needs one more step, because deposits happen 12 times a year while interest may compound 1, 2, 4 or 365 times a year. It converts your rate to an equivalent monthly rate:</p>
+<p class="formula">monthly rate = (1 + r ÷ n)<sup>n ÷ 12</sup> − 1<br>each month: new balance = old balance × (1 + monthly rate) + monthly contribution</p>
+<p>This conversion has a useful property: 12 months of growth always add up to exactly (1 + r ÷ n)<sup>n</sup>, which is the growth the formula above gives for one year. If you set the monthly contribution to 0, the answer matches A = P(1 + r/n)<sup>nt</sup> exactly.</p>
+<p><strong>Key assumption:</strong> contributions are made at the end of each month, so a deposit starts earning interest the month after it is made. If you deposit at the start of each month instead, your real result would be a little higher than shown.</p>
+<p>The effective annual yield (APY) is (1 + r ÷ n)<sup>n</sup> − 1. The U.S. Consumer Financial Protection Bureau's Regulation DD uses a related idea for deposit accounts: APY is a yearly rate that measures the total interest earned, and it depends on both the interest rate and how often interest compounds. The official formula in that regulation works from the interest earned over the account's term, so it is written a little differently from the simple version used here.</p>
+
+<h2>Worked examples</h2>
+<p>Each row below was produced by this calculator with the USD symbol.</p>
+<table>
+<thead><tr><th>Initial</th><th>Monthly</th><th>Rate</th><th>Years</th><th>Compounding</th><th>Future balance</th><th>Interest earned</th></tr></thead>
+<tbody>
+<tr><td>$10,000</td><td>$200</td><td>7%</td><td>10</td><td>Monthly</td><td>$54,713.58</td><td>$20,713.58</td></tr>
+<tr><td>$10,000</td><td>$200</td><td>7%</td><td>20</td><td>Monthly</td><td>$144,572.72</td><td>$86,572.72</td></tr>
+<tr><td>$0</td><td>$200</td><td>7%</td><td>30</td><td>Monthly</td><td>$243,994.20</td><td>$171,994.20</td></tr>
+<tr><td>$10,000</td><td>$0</td><td>7%</td><td>10</td><td>Monthly</td><td>$20,096.61</td><td>$10,096.61</td></tr>
+<tr><td>$10,000</td><td>$200</td><td>5%</td><td>10</td><td>Monthly</td><td>$47,526.55</td><td>$13,526.55</td></tr>
+<tr><td>$10,000</td><td>$200</td><td>0%</td><td>10</td><td>Monthly</td><td>$34,000.00</td><td>$0.00</td></tr>
+<tr><td>$5,000</td><td>$100</td><td>4%</td><td>20</td><td>Quarterly</td><td>$47,706.44</td><td>$18,706.44</td></tr>
+</tbody>
+</table>
+<p>In the first example you put in $34,000 in total: $10,000 at the start plus $200 a month for 120 months. At a steady 7%, the balance would be $54,713.58, so about $20,713.58 of it is interest. The APY for 7% compounded monthly is 7.23%.</p>
+<p>Compare the first two rows. Doubling the time from 10 to 20 years does not just double the balance. It grows from $54,713.58 to $144,572.72, because later years earn interest on a much bigger pile. Compare the first and the fifth rows to see how much the rate matters: dropping from 7% to 5% lowers the 10-year balance from $54,713.58 to $47,526.55.</p>
+
+<h2>Does compounding frequency matter?</h2>
+<p>A little, but much less than the rate or the time. Here is $1,000 at a 6% yearly rate for one year, with no extra deposits:</p>
+<table>
+<thead><tr><th>Compounding</th><th>Balance after 1 year</th><th>APY</th></tr></thead>
+<tbody>
+<tr><td>Annually</td><td>$1,060.00</td><td>6.00%</td></tr>
+<tr><td>Semiannually</td><td>$1,060.90</td><td>6.09%</td></tr>
+<tr><td>Quarterly</td><td>$1,061.36</td><td>6.14%</td></tr>
+<tr><td>Monthly</td><td>$1,061.68</td><td>6.17%</td></tr>
+<tr><td>Daily</td><td>$1,061.83</td><td>6.18%</td></tr>
+</tbody>
+</table>
+<p>The gap between annual and daily compounding is under 2 dollars on $1,000. When you compare savings accounts, compare the APY, because it already includes the effect of compounding.</p>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>What is the difference between the interest rate and the APY?</dt>
+<dd>The interest rate is the stated yearly rate. The APY is what you actually earn over a year after compounding. With annual compounding they are the same. With more frequent compounding the APY is slightly higher.</dd>
+<dt>Why is my result different from my bank's calculator?</dt>
+<dd>Tools make different choices. Some assume deposits at the start of the month, some use a daily balance, and some round at each step. This calculator assumes end-of-month deposits and rounds only the numbers you see.</dd>
+<dt>Can I use a negative rate?</dt>
+<dd>Yes, down to -20%. That shows what a steady yearly loss would do to a balance. Real losses rarely happen in a smooth, even way.</dd>
+<dt>What rate should I enter?</dt>
+<dd>That depends on what you are saving in, and nobody can know future returns. A savings account usually shows its APY. For investments, try several rates, such as 3%, 5% and 7%, and look at the range of results.</dd>
+<dt>Does the calculator include taxes, fees or inflation?</dt>
+<dd>No. Taxes and fees would lower your result. Inflation reduces what the money can buy, even if the balance looks large.</dd>
+<dt>Does the currency choice change the answer?</dt>
+<dd>No. The symbol is only a label. The math is the same for every currency.</dd>
+</dl>
+
+<div class="note">
+<p><strong>Important notes.</strong> This calculator is for general information and learning. It is not investment, tax or financial advice. It assumes a constant rate, deposits at the end of each month and no withdrawals. Real returns change from year to year, are not guaranteed, and can be negative. Taxes, account fees, fund costs and inflation are ignored. For decisions about your own money, check the terms of your account or talk to a licensed professional.</p>
+</div>

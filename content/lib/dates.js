@@ -1,6 +1,8 @@
 // 日付ツール共通のヘルパー。すべて 'YYYY-MM-DD' 文字列と UTC で扱い、タイムゾーンの影響を受けないようにする。
 
 export const WEEKDAYS = ['日', '月', '火', '水', '木', '金', '土'];
+export const WEEKDAYS_EN = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+export const MONTHS_EN = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const DAY_MS = 86_400_000;
 
 // 実在する日付なら { y, m, d } を、そうでなければ null を返す
@@ -34,6 +36,12 @@ export const isLeapYear = (y) => (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0
 export function formatJp(iso) {
   const p = mustParse(iso);
   return `${p.y}年${p.m}月${p.d}日（${WEEKDAYS[weekdayIndex(iso)]}）`;
+}
+
+// 英語表記（例: Monday, October 12, 2026）。Intl に頼らず固定の書式にする
+export function formatEn(iso) {
+  const p = mustParse(iso);
+  return `${WEEKDAYS_EN[weekdayIndex(iso)]}, ${MONTHS_EN[p.m - 1]} ${p.d}, ${p.y}`;
 }
 
 // 改元日（グレゴリオ暦）。明治5年12月2日（旧暦）まで太陰太陽暦のため、1873-01-01 より前は変換しない

@@ -1,0 +1,16 @@
+{
+  "title": "Date Calculator: Days Between Dates, Add or Subtract Time",
+  "shortTitle": "Date Calculator",
+  "description": "Free date calculator: count the days between two dates, add or subtract years, months, weeks and days, and see weekdays, weekends and the day of the week.",
+  "lead": "How many days until a deadline, a trip or a birthday? What date is 90 days from today? Enter two dates, or a start date and an amount of time, and get the answer with weekdays and weekends broken out.",
+  "category": "date",
+  "keywords": ["date calculator", "days between dates", "add days to a date", "how many days until", "business days calculator", "date difference", "days from today", "weekdays between two dates"],
+  "alternate": { "ja": "date-calc" },
+  "sources": [
+    { "title": "U.S. Naval Observatory: Leap Years", "url": "https://aa.usno.navy.mil/faq/leap_years" },
+    { "title": "U.S. Naval Observatory: Calendars", "url": "https://aa.usno.navy.mil/faq/calendars" },
+    { "title": "NIST Time and Frequency Division", "url": "https://www.nist.gov/pml/time-and-frequency-division" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}

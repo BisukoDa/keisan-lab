@@ -46,6 +46,8 @@ main .wrap > *, article > * { min-width: 0; max-width: 100%; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.9rem; }
 .site-nav a { color: var(--muted); text-decoration: none; }
 .site-nav a:hover { color: var(--accent); }
+.lang-switch { margin-left: auto; font-size: 0.85rem; color: var(--muted); text-decoration: none; border: 1px solid var(--border); border-radius: 999px; padding: 2px 10px; white-space: nowrap; }
+.lang-switch:hover { color: var(--accent); border-color: var(--accent); }
 
 main { padding: 20px 0 48px; }
 h1 { font-size: 1.6rem; line-height: 1.4; margin: 0.4em 0; }

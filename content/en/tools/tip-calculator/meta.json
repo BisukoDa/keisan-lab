@@ -1,0 +1,14 @@
+{
+  "title": "Tip Calculator: Tip on Pre-Tax or Full Bill, Split Between People",
+  "shortTitle": "Tip Calculator",
+  "description": "Free tip calculator: enter your bill and sales tax, pick a tip percentage on the pre-tax amount or the full bill, and split the total evenly between up to 100 people.",
+  "lead": "How much should you tip, and what does each person owe? Enter the bill, the tax and a tip percentage to see the tip, the total and each person's share, with the option to tip on the amount before tax.",
+  "category": "life",
+  "keywords": ["tip calculator", "split bill calculator", "how much to tip", "tip on pre-tax amount", "restaurant tip calculator", "gratuity calculator", "tip splitter", "18% tip calculator"],
+  "sources": [
+    { "title": "Emily Post Institute: Tipping Etiquette 101, A Comprehensive Guide on Tipping", "url": "https://emilypost.com/advice/general-tipping-guide" },
+    { "title": "U.S. Department of Labor, Wage and Hour Division: Fact Sheet #15, Tipped Employees Under the Fair Labor Standards Act (FLSA)", "url": "https://www.dol.gov/agencies/whd/fact-sheets/15-tipped-employees-flsa" }
+  ],
+  "published": "2026-10-12",
+  "updated": "2026-10-12"
+}

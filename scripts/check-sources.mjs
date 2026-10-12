@@ -3,11 +3,11 @@
 // - リダイレクト先がエラーページ（/error/、404 を含む URL）ならリンク切れ
 // - e-Gov 法令ページは常に 200 を返すため、法令 API で法令 ID の実在を確認する
 // - ネットワークに出られない環境（クラウドの許可リスト外など）は「未確認」として警告に留め、Fable の審査に委ねる
-import { loadTools } from './lib.mjs';
+import { loadAllTools } from './lib.mjs';
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
 const only = new Set(process.argv.slice(2));
-const tools = (await loadTools({ includeDrafts: true })).filter((t) => only.size === 0 || only.has(t.slug));
+const tools = (await loadAllTools({ includeDrafts: true })).filter((t) => only.size === 0 || only.has(t.slug));
 
 async function check(url) {
   const egov = url.match(/^https:\/\/laws\.e-gov\.go\.jp\/law\/([0-9A-Za-z_]+)/);
@@ -45,10 +45,10 @@ for (const t of tools) {
     }
     if (r.ok === false) {
       broken++;
-      console.log(`✗ tools/${t.slug}: ${s.url} — ${r.why}`);
+      console.log(`✗ ${t.locale}/${t.slug}: ${s.url} — ${r.why}`);
     } else if (r.ok === null) {
       unknown++;
-      console.log(`? tools/${t.slug}: ${s.url} — 未確認: ${r.why}`);
+      console.log(`? ${t.locale}/${t.slug}: ${s.url} — 未確認: ${r.why}`);
     }
   }
 }
