@@ -1,0 +1,16 @@
+{
+  "title": "BMI Calculator for Adults: Category and Healthy Weight Range",
+  "shortTitle": "BMI Calculator",
+  "description": "Free adult BMI calculator: enter height and weight in pounds and inches or kilograms and centimeters to see your BMI, CDC category and healthy weight range.",
+  "lead": "What do your height and weight add up to on the BMI scale? Enter them in pounds and inches or in kilograms and centimeters to see your BMI, the adult category, and the weight range that fits your height.",
+  "category": "health",
+  "keywords": ["BMI calculator", "body mass index calculator", "BMI calculator for adults", "BMI calculator lbs and inches", "BMI categories", "healthy weight range by height", "how to calculate BMI"],
+  "sources": [
+    { "title": "CDC: Adult BMI Categories", "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html" },
+    { "title": "CDC: Adult BMI Calculator", "url": "https://www.cdc.gov/bmi/adult-calculator/index.html" },
+    { "title": "CDC: About Body Mass Index (BMI)", "url": "https://www.cdc.gov/bmi/about/index.html" },
+    { "title": "NIST Guide to the SI, Appendix B.9: Factors for Units Listed Alphabetically", "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9" }
+  ],
+  "published": "2026-10-14",
+  "updated": "2026-10-14"
+}
