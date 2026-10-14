@@ -5,7 +5,7 @@
   "lead": "「今日から100日後は何日？」「締め切りまであと何日？」をその場で計算します。曜日・和暦、期間内の平日と土日の日数もあわせて表示します。",
   "category": "date",
   "keywords": ["日付計算", "何日後", "日数計算", "何日前", "日数 数え方", "期間 計算", "平日 日数"],
-  "related": ["age", "percent"],
+  "related": ["age", "percent", "wareki"],
   "sources": [
     { "title": "e-Gov法令検索「民法」（第138条〜第143条 期間の計算）", "url": "https://laws.e-gov.go.jp/law/129AC0000000089" },
     { "title": "国立天文台 暦計算室", "url": "https://eco.mtk.nao.ac.jp/koyomi/" }

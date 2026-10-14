@@ -6,7 +6,7 @@
   {"slug": "electricity", "title": "電気代計算", "category": "life", "priority": 1, "complexity": "low", "offers": ["electricity"], "status": "done", "notes": "初期リリース"},
   {"slug": "percent", "title": "パーセント計算", "category": "math", "priority": 1, "complexity": "low", "offers": [], "status": "done", "notes": "初期リリース"},
   {"slug": "shohizei", "title": "消費税計算（税込・税抜）", "category": "money", "priority": 1, "complexity": "low", "offers": [], "status": "done", "notes": "10%/8%軽減税率、税込→税抜、端数処理（切捨て・四捨五入・切上げ）選択。国税庁 消費税の軽減税率制度・総額表示"},
-  {"slug": "wareki", "title": "和暦・西暦変換と早見表", "category": "date", "priority": 1, "complexity": "low", "offers": [], "status": "todo", "notes": "content/lib/dates.js の toWareki を再利用。和暦→西暦の逆変換、元号ごとの早見表（年齢付き）"},
+  {"slug": "wareki", "title": "和暦・西暦変換と早見表", "category": "date", "priority": 1, "complexity": "low", "offers": [], "status": "done", "notes": "content/lib/dates.js の toWareki を再利用。和暦→西暦の逆変換、元号ごとの早見表（年齢付き）"},
   {"slug": "gakunen", "title": "学年早見表・入学卒業年度計算", "category": "date", "priority": 1, "complexity": "low", "offers": [], "status": "todo", "notes": "学校教育法17条。4月1日生まれの扱い。小・中・高・大の入学/卒業年"},
   {"slug": "jikyu", "title": "時給・月給・年収換算", "category": "work", "priority": 1, "complexity": "low", "offers": [], "status": "todo", "notes": "労働時間・日数から相互換算。手取りではなく額面であることを明記"},
   {"slug": "zangyo", "title": "残業代計算", "category": "work", "priority": 1, "complexity": "medium", "offers": [], "status": "todo", "notes": "労働基準法37条・割増賃金令。時間外25%、月60時間超50%、深夜25%、休日35%。厚労省資料で確認"},

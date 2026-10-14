@@ -19,3 +19,4 @@
 | 2026-10-12 | publish | en/tip-calculator | Fable 91（1回目 90 で合格、軽微修正後に再確認） | 英語版初期リリース |
 | 2026-10-13 | publish | shohizei | Fable 93 (1回目合格) | 消費税計算｜税込・税抜をかんたんに計算（10%・8%対応）。広告タグ Issue #1(高リスク銘柄)・#2(楽天・枠不一致) は見送りで close |
 | 2026-10-14 | publish | en/bmi-calculator | Fable 91 (1回目合格) | BMI Calculator for Adults: Category and Healthy Weight Range |
+| 2026-10-15 | publish | wareki | Fable 92 (1回目合格) | 和暦・西暦変換｜年号早見表と改元日の境目がわかる |
