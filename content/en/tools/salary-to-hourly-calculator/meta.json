@@ -1,0 +1,15 @@
+{
+  "title": "Salary to Hourly Calculator: Convert Yearly Pay to an Hourly Wage",
+  "shortTitle": "Salary to Hourly",
+  "description": "Free salary to hourly calculator: enter a yearly, monthly, biweekly or weekly salary and your hours to see your hourly, daily, weekly and monthly pay before taxes.",
+  "lead": "What is your salary worth per hour? Enter your pay and the hours you work to see the hourly wage, plus daily, weekly, biweekly and monthly amounts, with a check against the federal 2,087-hour rule.",
+  "category": "work",
+  "keywords": ["salary to hourly calculator", "annual salary to hourly", "hourly wage calculator", "75000 a year is how much an hour", "convert salary to hourly", "2080 hours a year", "salary to hourly after unpaid time off"],
+  "related": ["percentage-calculator"],
+  "sources": [
+    { "title": "U.S. Office of Personnel Management: Computing Hourly Rates of Pay Using the 2,087-Hour Divisor", "url": "https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/computing-hourly-rates-of-pay-using-the-2087-hour-divisor/" },
+    { "title": "U.S. Department of Labor, Wage and Hour Division: Fact Sheet #23, Overtime Pay Requirements of the FLSA", "url": "https://www.dol.gov/agencies/whd/fact-sheets/23-flsa-overtime-pay" }
+  ],
+  "published": "2026-10-16",
+  "updated": "2026-10-16"
+}

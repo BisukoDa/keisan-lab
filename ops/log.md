@@ -20,3 +20,4 @@
 | 2026-10-13 | publish | shohizei | Fable 93 (1回目合格) | 消費税計算｜税込・税抜をかんたんに計算（10%・8%対応）。広告タグ Issue #1(高リスク銘柄)・#2(楽天・枠不一致) は見送りで close |
 | 2026-10-14 | publish | en/bmi-calculator | Fable 91 (1回目合格) | BMI Calculator for Adults: Category and Healthy Weight Range |
 | 2026-10-15 | publish | wareki | Fable 92 (1回目合格) | 和暦・西暦変換｜年号早見表と改元日の境目がわかる |
+| 2026-10-16 | publish | en/salary-to-hourly-calculator | Fable 92 (2回目合格; 1回目80は無給週入力時の週給・2週給の矛盾) | Salary to Hourly Calculator: Convert Yearly Pay to an Hourly Wage |
