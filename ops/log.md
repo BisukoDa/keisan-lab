@@ -21,3 +21,4 @@
 | 2026-10-14 | publish | en/bmi-calculator | Fable 91 (1回目合格) | BMI Calculator for Adults: Category and Healthy Weight Range |
 | 2026-10-15 | publish | wareki | Fable 92 (1回目合格) | 和暦・西暦変換｜年号早見表と改元日の境目がわかる |
 | 2026-10-16 | publish | en/salary-to-hourly-calculator | Fable 92 (2回目合格; 1回目80は無給週入力時の週給・2週給の矛盾) | Salary to Hourly Calculator: Convert Yearly Pay to an Hourly Wage |
+| 2026-10-17 | publish | gakunen | Fable 92 (2回目合格; 1回目82はFAQの高校卒業年の説明誤り) | 学年早見表｜生年月日から学年・入学年・卒業年を計算 |
