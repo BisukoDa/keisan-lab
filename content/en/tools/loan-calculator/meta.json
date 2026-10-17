@@ -1,0 +1,17 @@
+{
+  "title": "Loan Calculator: Monthly Payment, Total Interest & APR",
+  "shortTitle": "Loan Calculator",
+  "description": "Free loan payment calculator for auto, personal and student loans: enter amount, rate and term for the payment, total interest and extra-payment savings.",
+  "lead": "How much will a loan really cost each month, and how much interest will you pay? Enter the amount, rate and term, then try an extra payment or an origination fee to see how the cost changes.",
+  "category": "money",
+  "keywords": ["loan calculator", "loan payment calculator", "personal loan calculator", "auto loan calculator", "monthly loan payment", "loan interest calculator", "loan amortization schedule", "APR vs interest rate"],
+  "alternate": { "ja": "loan" },
+  "related": ["mortgage-calculator", "compound-interest-calculator"],
+  "sources": [
+    { "title": "Consumer Financial Protection Bureau: What is the difference between a loan interest rate and the APR?", "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/" },
+    { "title": "Consumer Financial Protection Bureau: Do personal installment loans have fees?", "url": "https://www.consumerfinance.gov/ask-cfpb/do-personal-installment-loans-have-fees-en-2120/" },
+    { "title": "Consumer Financial Protection Bureau: What's the difference between a simple interest rate and precomputed interest on an auto loan?", "url": "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-simple-interest-rate-and-precomputed-interest-on-an-auto-loan-en-841/" }
+  ],
+  "published": "2026-10-18",
+  "updated": "2026-10-18"
+}

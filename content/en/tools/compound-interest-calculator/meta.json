@@ -6,6 +6,7 @@
   "category": "money",
   "keywords": ["compound interest calculator", "compound interest calculator with monthly contributions", "investment growth calculator", "savings growth calculator", "compound interest formula", "effective annual yield calculator", "APY calculator"],
   "alternate": { "ja": "tsumitate" },
+  "related": ["loan-calculator"],
   "sources": [
     { "title": "Investor.gov (U.S. SEC): Compound Interest Calculator", "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator" },
     { "title": "Consumer Financial Protection Bureau: Regulation DD (12 CFR 1030) Appendix A, Annual Percentage Yield Calculation", "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/" }

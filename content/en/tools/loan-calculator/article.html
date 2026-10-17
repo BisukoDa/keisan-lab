@@ -1,0 +1,67 @@
+<h2>What this calculator does</h2>
+<p>This loan calculator works out the cost of a fixed-rate installment loan. That is a loan you repay with equal monthly payments over a set time, such as a car loan, a personal loan or a student loan. Enter the amount you borrow, the yearly interest rate and the length of the loan. The calculator shows your monthly payment, the total interest you will pay, the total of all payments and a year-by-year table of principal paid, interest paid and the remaining balance.</p>
+<p>Two optional boxes let you test ideas. An extra monthly payment shows how much interest you could save and how many months sooner you would finish. An origination fee shows how a fee taken out of your loan proceeds raises the true cost, as an estimated APR.</p>
+
+<h2>How to use it</h2>
+<ul>
+<li><strong>Loan amount.</strong> The amount you borrow, before any fee is taken out.</li>
+<li><strong>Interest rate.</strong> The yearly rate from your lender's offer. Use the plain interest rate here, not the APR.</li>
+<li><strong>Loan term.</strong> Type a whole number and choose years or months. The longest term is 40 years (480 months).</li>
+<li><strong>Extra payment.</strong> Optional. This amount is added to every regular payment and goes straight to principal.</li>
+<li><strong>Origination fee.</strong> Optional. Enter it as a percent of the loan amount. Many lenders subtract it from the money you receive.</li>
+</ul>
+
+<h2>How the monthly payment is calculated</h2>
+<p>The payment uses the standard amortization formula. With the loan amount L, the monthly rate i (the yearly rate divided by 12) and the number of monthly payments n:</p>
+<p class="formula">Monthly payment = L x i x (1 + i)<sup>n</sup> / ((1 + i)<sup>n</sup> - 1)</p>
+<p>If the rate is zero, the payment is just the loan divided by the number of months. Each month, interest is the current balance times i. The rest of the payment reduces the balance. Because the balance is largest at the start, early payments are mostly interest, and later payments are mostly principal.</p>
+<p>The calculator works in whole cents. The payment is rounded to the cent, each month's interest is rounded to the cent, and the last payment settles whatever is left, so the balance ends at exactly $0.00. A lender may round slightly differently, so expect differences of a few cents on the totals.</p>
+
+<h2>Interest rate versus APR</h2>
+<p>The Consumer Financial Protection Bureau (CFPB) explains that the interest rate is the cost of borrowing the principal, while the annual percentage rate (APR) also reflects certain fees. Since the APR adds fees on top of the rate, it is usually higher. When you compare offers, compare APR to APR and rate to rate, not one against the other.</p>
+<p>The CFPB also notes that personal installment loans can carry fees, such as origination fees, so check your loan documents. In this calculator, the payment is based on the full loan amount and the interest rate. When you enter a fee, the calculator treats the fee as taken out of your proceeds and estimates the APR that results. Your lender's disclosed APR is the official number.</p>
+
+<h2>Worked examples</h2>
+<p>Each example below comes straight from this calculator. The base case is a $25,000 loan at 8% for 5 years.</p>
+<table>
+<thead><tr><th>Scenario</th><th>Monthly payment</th><th>Total interest</th><th>Total paid</th></tr></thead>
+<tbody>
+<tr><td>$25,000, 8%, 5 years</td><td>$506.91</td><td>$5,414.61</td><td>$30,414.61</td></tr>
+<tr><td>$25,000, 8%, 3 years</td><td>$783.41</td><td>$3,202.75</td><td>$28,202.75</td></tr>
+<tr><td>$25,000, 8%, 5 years, $200 extra a month</td><td>$506.91 + $200.00</td><td>$3,607.03</td><td>$28,607.03</td></tr>
+<tr><td>$10,000, 12%, 36 months</td><td>$332.14</td><td>$1,957.14</td><td>$11,957.14</td></tr>
+</tbody>
+</table>
+<p><strong>Shorter term.</strong> Going from 5 years to 3 years raises the monthly payment by $276.50, from $506.91 to $783.41. In return, total interest falls from $5,414.61 to $3,202.75.</p>
+<p><strong>Extra payments.</strong> Adding $200 a month to the 5-year loan means you make 41 payments instead of 60, so you finish 19 months sooner. You pay $3,607.03 in interest instead of $5,414.61, a saving of $1,807.58.</p>
+<p><strong>A fee changes the real cost.</strong> If the $25,000 loan carries a 5% origination fee ($1,250.00), you receive $23,750.00 but still repay $506.91 a month. The estimated APR is about 10.20%, well above the 8% interest rate.</p>
+<p>In the base case, the first year of payments puts $4,236.00 toward principal and $1,846.92 toward interest, leaving a balance of $20,764.00.</p>
+
+<h2>Ways to lower the cost of a loan</h2>
+<ul>
+<li><strong>Choose a shorter term.</strong> The payment is higher, but you pay interest for fewer months.</li>
+<li><strong>Pay extra when you can.</strong> Extra money goes to principal, so future interest is charged on a smaller balance. Ask your lender whether there is a prepayment penalty and how extra payments are applied.</li>
+<li><strong>Compare APRs.</strong> Get offers in writing and compare them for the same amount and term.</li>
+<li><strong>Watch the fees.</strong> A low rate with a high fee can cost more than a slightly higher rate with no fee.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>How is a loan payment calculated?</dt>
+<dd>It uses the loan amount, the monthly interest rate and the number of payments in the amortization formula shown above. The result is one equal payment that repays the loan exactly by the last month.</dd>
+<dt>Why is my first payment mostly interest?</dt>
+<dd>Interest is charged on the remaining balance, which is highest at the start. As the balance falls, a bigger share of each payment goes to principal.</dd>
+<dt>Is this the same as an auto loan calculator?</dt>
+<dd>Yes, for loans that charge simple interest on the unpaid balance. The CFPB points out that some auto loans use precomputed interest, where the interest is figured in advance and may not drop when you pay early. Check your contract for which type you have.</dd>
+<dt>What is the difference between interest rate and APR?</dt>
+<dd>The interest rate is the price of borrowing the principal. The APR also reflects certain fees, so it is usually higher and is the better number for comparing offers.</dd>
+<dt>Do extra payments always save money?</dt>
+<dd>On a simple-interest loan they do, because they cut the balance that interest is charged on. Some loans have prepayment penalties or precomputed interest, so confirm the terms with your lender.</dd>
+<dt>Can I use this for a credit card or a variable-rate loan?</dt>
+<dd>No. This calculator assumes a fixed rate and equal payments. Credit cards and variable-rate loans change over time and are not modeled.</dd>
+</dl>
+
+<h2>Important notes</h2>
+<div class="note">
+<p>This is an estimate for planning, not a loan offer, an approval or financial advice. Your actual rate, fees and payment depend on your lender, your credit and the loan contract. Taxes, late fees, optional insurance and other charges are not included. For home loans with taxes, insurance and PMI, use the mortgage calculator instead.</p>
+</div>
