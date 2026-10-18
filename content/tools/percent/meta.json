@@ -4,11 +4,30 @@
   "description": "「AのB％はいくつ」「AはBの何％」「増減率」「○％引き」「○％増し」の5つのパーセント計算に対応。計算式と計算例、歩合（割・分・厘）への換算も解説します。",
   "lead": "「2000円の15％は？」「30は120の何％？」「去年から何％増えた？」「3割引きでいくら？」を、数字を入れるだけで計算します。",
   "category": "math",
-  "keywords": ["パーセント計算", "割合 計算", "増減率 計算", "何パーセント", "割引 計算", "％引き 計算", "歩合"],
-  "related": ["electricity", "tsumitate", "shohizei"],
+  "keywords": [
+    "パーセント計算",
+    "割合 計算",
+    "増減率 計算",
+    "何パーセント",
+    "割引 計算",
+    "％引き 計算",
+    "歩合"
+  ],
+  "related": [
+    "electricity",
+    "tsumitate",
+    "shohizei",
+    "jikyu"
+  ],
   "sources": [
-    { "title": "文部科学省「小学校学習指導要領（平成29年告示）解説 算数編」", "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1387014.htm" },
-    { "title": "国税庁 No.6902「総額表示」の義務付け", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6902.htm" }
+    {
+      "title": "文部科学省「小学校学習指導要領（平成29年告示）解説 算数編」",
+      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1387014.htm"
+    },
+    {
+      "title": "国税庁 No.6902「総額表示」の義務付け",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6902.htm"
+    }
   ],
   "published": "2026-10-12",
   "updated": "2026-10-12"

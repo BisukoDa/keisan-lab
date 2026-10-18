@@ -102,7 +102,7 @@
     "priority": 1,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "労働時間・日数から相互換算。手取りではなく額面であることを明記"
   },
   {

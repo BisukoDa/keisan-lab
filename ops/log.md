@@ -23,3 +23,4 @@
 | 2026-10-16 | publish | en/salary-to-hourly-calculator | Fable 92 (2回目合格; 1回目80は無給週入力時の週給・2週給の矛盾) | Salary to Hourly Calculator: Convert Yearly Pay to an Hourly Wage |
 | 2026-10-17 | publish | gakunen | Fable 92 (2回目合格; 1回目82はFAQの高校卒業年の説明誤り) | 学年早見表｜生年月日から学年・入学年・卒業年を計算 |
 | 2026-10-18 | publish | en/loan-calculator | Fable 93 (2回目合格; 1回目78は高金利×長期でのセント丸め誤差の蓄積と alternate.ja 重複) | Loan Calculator: Monthly Payment, Total Interest & APR |
+| 2026-10-19 | publish | jikyu | Fable 91 (2回目合格; 1回目86は最低賃金の出典URLと記述の不一致) | 時給・月給・年収換算｜勤務時間から相互にかんたん計算 |

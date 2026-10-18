@@ -1,0 +1,43 @@
+{
+  "title": "時給・月給・年収換算｜勤務時間から相互にかんたん計算",
+  "shortTitle": "時給・月給・年収換算",
+  "description": "時給・月給・年収のどれか1つと、1日の労働時間・週の勤務日数を入れるだけで、残りの2つを換算。月平均の労働時間や日給も表示。額面での計算です。",
+  "lead": "時給1,200円だと月給や年収はいくら？　月給25万円を時給にすると？　勤務時間と日数を入れるだけで、時給・月給・年収を相互に換算します。",
+  "category": "work",
+  "keywords": [
+    "時給 月給 換算",
+    "時給 年収 計算",
+    "月給 時給 計算",
+    "年収 時給 換算",
+    "月平均所定労働時間",
+    "時給換算"
+  ],
+  "offers": [],
+  "related": [
+    "percent",
+    "tsumitate"
+  ],
+  "sources": [
+    {
+      "title": "e-Gov法令検索「労働基準法施行規則」（第19条 割増賃金の基礎となる賃金の計算額）",
+      "url": "https://laws.e-gov.go.jp/law/322M40000100023"
+    },
+    {
+      "title": "e-Gov法令検索「労働基準法」（第32条 労働時間）",
+      "url": "https://laws.e-gov.go.jp/law/322AC0000000049"
+    },
+    {
+      "title": "厚生労働省 最低賃金特設サイト「最低賃金のチェック方法は？」",
+      "url": "https://saiteichingin.mhlw.go.jp/point/page_point_check.html"
+    },
+    {
+      "title": "厚生労働省「地域別最低賃金の全国一覧」",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/minimumichiran/index.html"
+    }
+  ],
+  "published": "2026-10-19",
+  "updated": "2026-10-19",
+  "alternate": {
+    "en": "salary-to-hourly-calculator"
+  }
+}
