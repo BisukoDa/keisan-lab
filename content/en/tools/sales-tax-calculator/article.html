@@ -1,0 +1,62 @@
+<h2>What this calculator does</h2>
+<p>Sales tax is a percentage added to the price of things you buy. The rate depends on where you shop, and the amount shows up on the receipt as a separate line. This calculator answers the three questions people ask most often. Choose one from the menu, enter your numbers, and the result updates as you type.</p>
+<ul>
+<li><strong>Add tax to a price.</strong> You know the price on the tag and the tax rate. You want the tax and the total you will pay. You can also enter a quantity.</li>
+<li><strong>Remove tax from a total.</strong> You know what you paid in total and the rate. You want the price before tax and the tax that was included.</li>
+<li><strong>Find the tax rate.</strong> You know the price before tax and the total. You want to know what rate was charged.</li>
+</ul>
+<p>Money is worked out in whole cents, so you never see strange results like $4.249150 on screen.</p>
+
+<h2>How to use it</h2>
+<ol>
+<li>Pick what you want to calculate.</li>
+<li>Enter the amounts. Use the price before tax when adding tax, and the total from the receipt when removing it.</li>
+<li>Enter the sales tax rate. This is the combined rate of state, county and city taxes where the sale took place. Your receipt or your local tax agency can tell you the right number.</li>
+<li>Read the answer. The main result is shown first, and the tax amount is shown next to it.</li>
+</ol>
+<p>The rate box accepts up to three decimal places, because many local rates are not round numbers. Some places use rates such as 8.875% because several layers of tax are combined.</p>
+
+<h2>Sales tax formulas</h2>
+<p>A percent means "per hundred", so 8.5% is the same as 0.085. Every result comes from that one idea.</p>
+<p class="formula">Tax = price before tax x rate / 100<br>Total = price before tax + tax = price before tax x (1 + rate / 100)<br>Price before tax = total / (1 + rate / 100)<br>Rate = (total - price before tax) / price before tax x 100</p>
+<p>The second formula explains the "remove tax" mode. If you paid $107.00 with a 7% rate, the total is 1.07 times the price, so the price was 107 / 1.07 = $100.00. A common mistake is to take 7% off the total instead. That gives $99.51, which is wrong, because the tax was charged on the smaller price, not on the total.</p>
+<p>Sales tax is a percentage of the sales price of an item, and according to USAGov, most states and municipalities charge different percentages on different goods, or none at all on some. So the rate you type in should be the rate for the kind of item you are buying.</p>
+
+<h2>Worked examples</h2>
+<table>
+<thead><tr><th>Question</th><th>Calculation</th><th>Answer</th></tr></thead>
+<tbody>
+<tr><td>Add 8.5% tax to $49.99</td><td>49.99 x 0.085 = 4.24915, rounded to the cent</td><td>Tax $4.25, total $54.24</td></tr>
+<tr><td>Add 6.25% tax to 3 items at $19.99</td><td>59.97 x 0.0625 = 3.748125, rounded to the cent</td><td>Tax $3.75, total $63.72</td></tr>
+<tr><td>Remove 7% tax from $107.00</td><td>107.00 / 1.07</td><td>Price $100.00, tax $7.00</td></tr>
+<tr><td>Remove 8.5% tax from $54.24</td><td>54.24 / 1.085</td><td>Price $49.99, tax $4.25</td></tr>
+<tr><td>Find the rate: $50.00 became $54.25</td><td>4.25 / 50.00 x 100</td><td>8.5%</td></tr>
+</tbody>
+</table>
+<p>The second row shows why quantity matters. The tax is worked out on the whole $59.97 purchase, not item by item.</p>
+
+<h2>How rounding works here</h2>
+<p>Receipts show whole cents, so the tax has to be rounded. This calculator rounds the tax to the nearest cent, and a result of exactly half a cent is rounded up. For example, 5% of $0.10 is half a cent, so the tax is $0.01.</p>
+<p>Real stores can differ. Some cash registers round the tax on each item and then add the items up. Others add the items first and round once at the end. Your receipt can therefore differ from this calculator by a few cents on a long list of items. If the exact cent matters, trust the receipt.</p>
+<p>In "remove tax" mode the calculator looks for the whole-cent price that adds back up to your total. In rare cases, mostly at very high rates or tiny amounts, no price matches exactly. The tool then shows the closest match and says so.</p>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>How do I find out my sales tax rate?</dt>
+<dd>Look at a recent receipt. Divide the tax line by the price before tax and multiply by 100, or use the "find the tax rate" mode here. Your state or local tax agency also publishes current rates. USAGov lists where to find your state's tax agency and your local government's website.</dd>
+<dt>Is sales tax the same everywhere?</dt>
+<dd>No. Rates are set by states and often by counties and cities too, and the rules about which items are taxed vary. Food, clothing and medicine are treated differently in different places. Check the rules where you shop.</dd>
+<dt>How do I take sales tax out of a total?</dt>
+<dd>Divide the total by 1 plus the rate as a decimal. For a 6% rate, divide by 1.06. Do not simply subtract 6% of the total.</dd>
+<dt>Does the tax apply per item or to the whole purchase?</dt>
+<dd>That depends on the store's system and local rules. This calculator applies the tax to the whole purchase after multiplying price by quantity.</dd>
+<dt>Can I deduct sales tax on my federal return?</dt>
+<dd>Some taxpayers who itemize can choose to deduct state and local general sales taxes instead of state and local income taxes. The IRS describes a general sales tax as a tax imposed at one rate on retail sales of a broad range of items. See IRS Topic no. 503 and the Schedule A instructions for the rules and limits.</dd>
+<dt>Does this tool work for VAT or GST?</dt>
+<dd>The arithmetic is the same: a percentage added to a price. Enter your own rate. Just remember that in many countries shelf prices already include the tax, so use "remove tax" mode to see the price before tax.</dd>
+</dl>
+
+<h2>Things to keep in mind</h2>
+<div class="note">
+<p>This calculator does the arithmetic only. It does not know which items are taxable where you live, and it does not look up local rates. Tax rules change, so confirm the rate and the rules with your state or local tax agency before relying on a figure for business, accounting or tax filing. This page is general information, not tax advice.</p>
+</div>

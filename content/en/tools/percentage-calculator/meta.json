@@ -10,7 +10,7 @@
     { "title": "U.S. Bureau of Labor Statistics: Calculating percent changes", "url": "https://www.bls.gov/cpi/factsheets/calculating-percent-changes.htm" },
     { "title": "NIST Guide to the SI, Chapter 7: Rules and Style Conventions for Expressing Values of Quantities", "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-7-rules-and-style-conventions-expressing-values" }
   ],
-  "related": ["salary-to-hourly-calculator"],
+  "related": ["salary-to-hourly-calculator", "sales-tax-calculator"],
   "published": "2026-10-12",
   "updated": "2026-10-12"
 }

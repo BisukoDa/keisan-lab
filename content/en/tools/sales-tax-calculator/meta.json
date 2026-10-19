@@ -1,0 +1,15 @@
+{
+  "title": "Sales Tax Calculator: Add Tax, Remove Tax or Find the Rate",
+  "shortTitle": "Sales Tax Calculator",
+  "description": "Free sales tax calculator: add tax to a price, work backward from a total to the price before tax, or find the tax rate from two amounts. Rounded to the cent.",
+  "lead": "How much is the total with tax? What did that item cost before tax? What rate was I charged? Pick a question, enter your numbers and get the answer to the cent, with the formula behind it.",
+  "category": "life",
+  "keywords": ["sales tax calculator", "reverse sales tax calculator", "how to calculate sales tax", "remove sales tax from total", "find sales tax rate", "price with tax calculator", "add sales tax to price", "tax inclusive price"],
+  "sources": [
+    { "title": "USAGov: State and local taxes", "url": "https://www.usa.gov/state-taxes" },
+    { "title": "IRS: Topic no. 503, Deductible taxes", "url": "https://www.irs.gov/taxtopics/tc503" }
+  ],
+  "related": ["percentage-calculator", "tip-calculator"],
+  "published": "2026-10-20",
+  "updated": "2026-10-20"
+}

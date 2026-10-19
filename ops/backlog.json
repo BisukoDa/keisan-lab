@@ -434,7 +434,7 @@
     "priority": 1,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "User enters rate (state+local vary); reverse calc from total; no state rate table unless sourced"
   },
   {
