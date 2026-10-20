@@ -6,7 +6,7 @@
   "category": "money",
   "keywords": ["ローン 返済 シミュレーション", "住宅ローン 計算", "毎月の返済額 計算", "元利均等 元金均等", "利息 計算", "返済額 計算式"],
   "offers": ["mortgage"],
-  "related": ["tsumitate", "percent"],
+  "related": ["tsumitate", "percent", "chokin-mokuhyo"],
   "sources": [
     { "title": "住宅金融支援機構【フラット35】「元利均等返済・元金均等返済」", "url": "https://www.flat35.com/loan/lineup/kinto/index.html" },
     { "title": "住宅金融支援機構【フラット35】「借入希望金額から返済額を計算」", "url": "https://www.flat35.com/simulation/simu_01.html" }

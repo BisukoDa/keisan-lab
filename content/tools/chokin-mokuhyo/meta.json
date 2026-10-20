@@ -1,0 +1,26 @@
+{
+  "title": "貯金目標計算｜毎月いくら貯めれば目標額に届く？",
+  "shortTitle": "貯金目標の計算",
+  "description": "目標金額・今ある貯金・期間・利回りを入れるだけで、毎月いくら貯めればよいかを逆算。利息を見込まない場合と複利の場合の違いも、計算例つきで解説します。",
+  "lead": "500万円を10年で貯めるなら、毎月いくら必要？　目標額と期間を入れると、毎月の貯金額をその場で逆算します。利回りを入れれば、運用で増える分も反映できます。",
+  "category": "money",
+  "keywords": ["貯金 目標 計算", "毎月 いくら 貯金", "貯金 シミュレーション", "積立 逆算", "目標金額 毎月の積立額", "貯金 計画"],
+  "offers": ["securities"],
+  "related": ["tsumitate", "loan", "percent"],
+  "sources": [
+    {
+      "title": "金融庁「つみたてシミュレーター」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/tsumitate-simulator/index.html"
+    },
+    {
+      "title": "金融庁「NISA特設ウェブサイト」",
+      "url": "https://www.fsa.go.jp/policy/nisa2/know/index.html"
+    },
+    {
+      "title": "国税庁 No.1310 利子所得の課税",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm"
+    }
+  ],
+  "published": "2026-10-21",
+  "updated": "2026-10-21"
+}

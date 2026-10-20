@@ -25,3 +25,4 @@
 | 2026-10-18 | publish | en/loan-calculator | Fable 93 (2回目合格; 1回目78は高金利×長期でのセント丸め誤差の蓄積と alternate.ja 重複) | Loan Calculator: Monthly Payment, Total Interest & APR |
 | 2026-10-19 | publish | jikyu | Fable 91 (2回目合格; 1回目86は最低賃金の出典URLと記述の不一致) | 時給・月給・年収換算｜勤務時間から相互にかんたん計算 |
 | 2026-10-20 | publish | en/sales-tax-calculator | Fable 91 (1回目合格) | Sales Tax Calculator: Add Tax, Remove Tax or Find the Rate |
+| 2026-10-21 | publish | chokin-mokuhyo | Fable 91 (1回目合格) | 貯金目標計算｜毎月いくら貯めれば目標額に届く？ |

@@ -124,7 +124,7 @@
     "offers": [
       "securities"
     ],
-    "status": "todo",
+    "status": "done",
     "notes": "目標額・期間・利回りから必要な毎月の積立額（tsumitate の逆算）"
   },
   {
