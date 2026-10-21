@@ -445,7 +445,7 @@
     "priority": 1,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "Exact formulas; NIST SP 811; conversion table"
   },
   {

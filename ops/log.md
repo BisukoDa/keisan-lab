@@ -26,3 +26,4 @@
 | 2026-10-19 | publish | jikyu | Fable 91 (2回目合格; 1回目86は最低賃金の出典URLと記述の不一致) | 時給・月給・年収換算｜勤務時間から相互にかんたん計算 |
 | 2026-10-20 | publish | en/sales-tax-calculator | Fable 91 (1回目合格) | Sales Tax Calculator: Add Tax, Remove Tax or Find the Rate |
 | 2026-10-21 | publish | chokin-mokuhyo | Fable 91 (1回目合格) | 貯金目標計算｜毎月いくら貯めれば目標額に届く？ |
+| 2026-10-22 | publish | en/fahrenheit-to-celsius | Fable 93 (1回目合格) | Fahrenheit to Celsius Converter: °F to °C, °C to °F & Kelvin |
