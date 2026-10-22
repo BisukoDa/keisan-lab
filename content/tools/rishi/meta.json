@@ -1,0 +1,16 @@
+{
+  "title": "預金の利息計算｜税引後の受取利息がわかる（単利・複利）",
+  "shortTitle": "預金の利息計算",
+  "description": "預入金額・年利・期間を入れると、定期預金の利息と20.315%の税金を引いた税引後の受取額を計算。単利・半年複利・1年複利に対応し、計算式と計算例も解説します。",
+  "lead": "100万円を年0.5%で1年預けたら、利息はいくら？　税金を引いた手取りは？　預入金額・年利・期間を入れると、税引後の利息と満期の受取総額をその場で計算します。",
+  "category": "money",
+  "keywords": ["預金 利息 計算", "定期預金 利息 税引後", "利息 20.315%", "単利 複利 違い", "半年複利 計算", "預金 利子 税金"],
+  "offers": [],
+  "related": ["tsumitate", "chokin-mokuhyo", "percent"],
+  "sources": [
+    { "title": "国税庁 No.1310 利子所得となるもの及び利子所得の課税方法", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm" }
+  ],
+  "reviewYearly": true,
+  "published": "2026-10-23",
+  "updated": "2026-10-23"
+}
