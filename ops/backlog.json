@@ -456,7 +456,7 @@
     "priority": 1,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "1 in = 2.54 cm exactly (NIST); feet+inches input"
   },
   {

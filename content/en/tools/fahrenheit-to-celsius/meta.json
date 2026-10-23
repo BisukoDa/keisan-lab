@@ -4,11 +4,28 @@
   "description": "Free Fahrenheit to Celsius converter. Enter a temperature in °F, °C or Kelvin and get the other scales instantly, with the exact formulas and a reference table.",
   "lead": "What is 98.6 °F in Celsius? Is 350 °F the same as 176.7 °C? Enter a temperature, pick its unit and see the other two scales at once, along with the exact formula behind the answer.",
   "category": "math",
-  "keywords": ["fahrenheit to celsius", "convert fahrenheit to celsius", "celsius to fahrenheit", "temperature converter", "f to c formula", "kelvin to celsius", "350 f to c"],
-  "related": ["percentage-calculator"],
+  "keywords": [
+    "fahrenheit to celsius",
+    "convert fahrenheit to celsius",
+    "celsius to fahrenheit",
+    "temperature converter",
+    "f to c formula",
+    "kelvin to celsius",
+    "350 f to c"
+  ],
+  "related": [
+    "percentage-calculator",
+    "inches-to-cm"
+  ],
   "sources": [
-    { "title": "NIST Special Publication 811: Guide for the Use of the International System of Units (SI)", "url": "https://www.nist.gov/pml/special-publication-811" },
-    { "title": "NIST: Kelvin, the SI base unit of thermodynamic temperature", "url": "https://www.nist.gov/si-redefinition/kelvin-introduction" }
+    {
+      "title": "NIST Special Publication 811: Guide for the Use of the International System of Units (SI)",
+      "url": "https://www.nist.gov/pml/special-publication-811"
+    },
+    {
+      "title": "NIST: Kelvin, the SI base unit of thermodynamic temperature",
+      "url": "https://www.nist.gov/si-redefinition/kelvin-introduction"
+    }
   ],
   "published": "2026-10-22",
   "updated": "2026-10-22"

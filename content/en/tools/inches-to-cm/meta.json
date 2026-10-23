@@ -1,0 +1,15 @@
+{
+  "title": "Inches to Centimeters Converter: Feet & Inches to cm, and Back",
+  "shortTitle": "Inches to cm Converter",
+  "description": "Free inches to centimeters converter. Enter feet and inches to get cm, meters and millimeters, or turn cm back into feet and inches, using the exact 2.54 factor.",
+  "lead": "How tall is 5 ft 9 in in centimeters? What is 175 cm in feet and inches? Enter your measurement and get the answer at once, with the exact factor of 2.54 cm per inch behind it.",
+  "category": "math",
+  "keywords": ["inches to cm", "inches to centimeters", "feet and inches to cm", "cm to feet and inches", "height converter", "convert inches to cm", "5 ft 9 in to cm"],
+  "related": ["fahrenheit-to-celsius"],
+  "sources": [
+    { "title": "NIST Special Publication 811: Guide for the Use of the International System of Units (SI)", "url": "https://www.nist.gov/pml/special-publication-811" },
+    { "title": "NIST Metric (SI) Program: Unit Conversion", "url": "https://www.nist.gov/pml/owm/metric-si/unit-conversion" }
+  ],
+  "published": "2026-10-24",
+  "updated": "2026-10-24"
+}
