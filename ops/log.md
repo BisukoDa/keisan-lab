@@ -29,3 +29,4 @@
 | 2026-10-22 | publish | en/fahrenheit-to-celsius | Fable 93 (1回目合格) | Fahrenheit to Celsius Converter: °F to °C, °C to °F & Kelvin |
 | 2026-10-23 | publish | rishi | Fable 91 (2回目合格; 1回目78は単利の浮動小数点切り捨て誤差) | 預金の利息計算｜税引後の受取利息がわかる（単利・複利） |
 | 2026-10-24 | publish | en/inches-to-cm | Fable 91 (1回目合格) | Inches to Centimeters Converter: Feet & Inches to cm, and Back |
+| 2026-10-26 | publish | en/pounds-to-kg | Fable 93 (1回目合格) | Pounds to Kilograms Converter: lb and oz to kg, and Back |

@@ -467,7 +467,7 @@
     "priority": 1,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "1 lb = 0.45359237 kg exactly (NIST)"
   },
   {
@@ -612,5 +612,115 @@
     "offers": [],
     "status": "todo",
     "notes": "Needs BLS CPI-U annual averages embedded as data with source and update date; reviewYearly"
+  },
+  {
+    "locale": "en",
+    "slug": "discount-calculator",
+    "title": "Discount Calculator (sale price and percent off)",
+    "category": "math",
+    "priority": 1,
+    "complexity": "low",
+    "offers": [],
+    "status": "todo",
+    "notes": "Sale price = price x (1 - discount%), savings, reverse (original price from sale price). Stacked discounts and sales tax are separate; cents rounding."
+  },
+  {
+    "locale": "en",
+    "slug": "apr-to-apy-calculator",
+    "title": "APR to APY Calculator",
+    "category": "money",
+    "priority": 2,
+    "complexity": "low",
+    "offers": [],
+    "status": "todo",
+    "notes": "APY = (1 + APR/m)^m - 1. Cite CFPB and 12 CFR 1030. Verify example 12.7% APR quarterly about 13.3% APY."
+  },
+  {
+    "locale": "en",
+    "slug": "debt-to-income-calculator",
+    "title": "Debt-to-Income (DTI) Ratio Calculator",
+    "category": "money",
+    "priority": 1,
+    "complexity": "medium",
+    "offers": [],
+    "status": "todo",
+    "notes": "DTI = monthly debt / gross monthly income. CFPB source. Not loan approval advice."
+  },
+  {
+    "locale": "en",
+    "slug": "retirement-savings-calculator",
+    "title": "401(k) Retirement Savings Calculator",
+    "category": "money",
+    "priority": 1,
+    "complexity": "medium",
+    "offers": [],
+    "status": "todo",
+    "notes": "Employer match, growth assumption, inflation. Verify IRS limits on irs.gov. reviewYearly."
+  },
+  {
+    "locale": "en",
+    "slug": "mileage-reimbursement-calculator",
+    "title": "Mileage Reimbursement Calculator (IRS rate)",
+    "category": "work",
+    "priority": 2,
+    "complexity": "medium",
+    "offers": [],
+    "status": "todo",
+    "notes": "Miles x IRS standard rate; user-entered rate; verify current rate on irs.gov. reviewYearly."
+  },
+  {
+    "locale": "en",
+    "slug": "profit-margin-calculator",
+    "title": "Profit Margin and Markup Calculator",
+    "category": "money",
+    "priority": 2,
+    "complexity": "low",
+    "offers": [],
+    "status": "todo",
+    "notes": "Margin vs markup definitions; price for target margin."
+  },
+  {
+    "locale": "en",
+    "slug": "standard-deviation-calculator",
+    "title": "Standard Deviation Calculator (sample and population)",
+    "category": "math",
+    "priority": 2,
+    "complexity": "medium",
+    "offers": [],
+    "status": "todo",
+    "notes": "n-1 vs n; NIST Engineering Statistics Handbook."
+  },
+  {
+    "locale": "en",
+    "slug": "fraction-calculator",
+    "title": "Fraction Calculator (add, subtract, multiply, divide)",
+    "category": "math",
+    "priority": 2,
+    "complexity": "low",
+    "offers": [],
+    "status": "todo",
+    "notes": "GCD reduction, mixed numbers, errors for zero denominator."
+  },
+  {
+    "locale": "en",
+    "slug": "cooking-measurement-converter",
+    "title": "Cups, Tablespoons and Milliliters Converter",
+    "category": "life",
+    "priority": 3,
+    "complexity": "low",
+    "offers": [],
+    "status": "todo",
+    "notes": "US customary volumes per NIST SP 811 / Handbook 44; US cup vs metric cup."
+  },
+  {
+    "locale": "en",
+    "slug": "take-home-pay-calculator",
+    "title": "Take-Home Pay Calculator (federal taxes, FICA)",
+    "category": "work",
+    "priority": 1,
+    "complexity": "high",
+    "offers": [],
+    "status": "todo",
+    "notes": "Verify 2026 brackets and standard deduction on irs.gov. reviewYearly. Not tax advice."
   }
 ]

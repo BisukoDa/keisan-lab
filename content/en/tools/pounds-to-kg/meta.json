@@ -1,0 +1,15 @@
+{
+  "title": "Pounds to Kilograms Converter: lb and oz to kg, and Back",
+  "shortTitle": "Pounds to kg Converter",
+  "description": "Free pounds to kilograms converter. Enter pounds and ounces to get kg and grams, or turn kg into pounds, ounces and stone, using the exact 0.45359237 factor.",
+  "lead": "How many kilograms is 150 pounds? What is 70 kg in pounds? Enter your weight and get the answer at once, with the exact factor of 0.45359237 kg per pound behind it.",
+  "category": "math",
+  "keywords": ["pounds to kg", "pounds to kilograms", "lbs to kg", "kg to pounds", "kg to lbs", "weight converter", "convert pounds to kg", "pounds and ounces to kg"],
+  "related": ["inches-to-cm", "fahrenheit-to-celsius"],
+  "sources": [
+    { "title": "NIST Special Publication 811: Guide for the Use of the International System of Units (SI)", "url": "https://www.nist.gov/pml/special-publication-811" },
+    { "title": "NIST Metric (SI) Program: Unit Conversion", "url": "https://www.nist.gov/pml/owm/metric-si/unit-conversion" }
+  ],
+  "published": "2026-10-26",
+  "updated": "2026-10-26"
+}
