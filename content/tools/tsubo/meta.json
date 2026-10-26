@@ -1,0 +1,21 @@
+{
+  "title": "坪・平米・畳の換算｜坪数が何㎡・何畳かすぐわかる",
+  "shortTitle": "坪・平米・畳の換算",
+  "description": "坪・平方メートル（㎡）・畳を相互に換算。京間・江戸間・団地間など畳のサイズ別の畳数も一覧表示。1坪＝約3.3058㎡の根拠と、不動産広告の畳数ルールも解説します。",
+  "lead": "「30坪は何㎡？」「100㎡は何坪？」「6畳は何㎡？」を、数字を入れるだけで換算します。畳は地域で大きさが違うため、種類ごとの畳数もあわせて表示します。",
+  "category": "math",
+  "keywords": ["坪 平米 換算", "坪 ㎡ 計算", "坪 畳 換算", "平米 坪 変換", "畳 平米 換算", "1坪 何平米", "畳 サイズ 地域"],
+  "related": ["percent", "jikyu"],
+  "sources": [
+    {
+      "title": "不動産公正取引協議会連合会「不動産の表示に関する公正競争規約施行規則」",
+      "url": "https://www.rftc.jp/webkanri/kanri/wp-content/uploads/2019/02/h_sekoukisoku.pdf"
+    },
+    {
+      "title": "経済産業省「取引又は証明／計量単位に関するよくある質問と回答」",
+      "url": "https://www.meti.go.jp/policy/economy/hyojun/techno_infra/51_qanda_tani.html"
+    }
+  ],
+  "published": "2026-10-27",
+  "updated": "2026-10-27"
+}
