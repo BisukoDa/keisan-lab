@@ -1,0 +1,57 @@
+<h2>What this calculator does</h2>
+<p>This hours calculator finds how long you worked between a start time and an end time. You can take out an unpaid break, count a shift that runs past midnight, and add up several days. It shows the answer two ways: in hours and minutes, and in decimal hours. Decimal hours are what most payroll systems and time cards ask for.</p>
+<p>It is handy for filling in a time card, checking a paycheck, billing a client, or planning a work week. If you also enter an hourly pay rate, it adds a gross pay estimate. Gross pay is the amount before taxes and other deductions are taken out.</p>
+
+<h2>How to use it</h2>
+<ol>
+<li><strong>Start and end time.</strong> Enter the hour (1 to 12), the minute (0 to 59) and AM or PM for each. For example, 9:00 AM is hour 9, minute 0, AM.</li>
+<li><strong>Unpaid break.</strong> Enter the total minutes of unpaid break each day. Leave it at 0 if you were paid for the whole time.</li>
+<li><strong>Number of days.</strong> Enter how many days you worked the same shift. The calculator multiplies the daily time by this number.</li>
+<li><strong>Hourly pay (optional).</strong> Enter your rate to see an estimate of gross pay. Clear the box to skip it.</li>
+</ol>
+<p>If the end time is earlier than the start time, the calculator treats the shift as ending the next day. A shift from 10:00 PM to 6:00 AM is counted as 8 hours, not as a negative number.</p>
+
+<h2>How hours are calculated</h2>
+<p>The calculator turns each clock time into minutes after midnight. Then it subtracts, takes off the break, and converts back to hours.</p>
+<p class="formula">Minutes after midnight = (hour mod 12) × 60 + minutes (+ 720 for PM)<br>Shift length = end − start (add 1,440 if the end is earlier)<br>Time worked = shift length − unpaid break<br>Decimal hours = minutes worked ÷ 60</p>
+<p>The "mod 12" step handles 12 o'clock. 12:00 AM is midnight (0 minutes) and 12:00 PM is noon (720 minutes). People often mix these up, so check them if your answer looks wrong.</p>
+<h3>Minutes versus decimal hours</h3>
+<p>An hour has 60 minutes, so 30 minutes is 0.5 hours, not 0.30. To change minutes to a decimal, divide by 60. For example, 35 minutes is 35 ÷ 60 = 0.58 hours, and 45 minutes is 0.75 hours. The calculator rounds decimal hours to two places for display. Pay is figured from the exact minutes and rounded to the nearest cent only at the end.</p>
+<h3>Breaks and paid time</h3>
+<p>The US Department of Labor explains that short rest breaks, usually 20 minutes or less, are normally paid and count as hours worked. A real meal period, typically 30 minutes or more, in which the worker is completely relieved from duty, generally does not have to be paid. If you must keep working during a meal, that time counts as work. Enter only the unpaid part of your break in this calculator. Some states have their own break rules, so check your state labor office.</p>
+
+<h2>Worked examples</h2>
+<table>
+<thead><tr><th>Shift</th><th>Unpaid break</th><th>Time worked</th><th>Decimal hours</th></tr></thead>
+<tbody>
+<tr><td>9:00 AM to 5:30 PM</td><td>30 min</td><td>8 h 00 min</td><td>8.00</td></tr>
+<tr><td>8:15 AM to 4:50 PM</td><td>0 min</td><td>8 h 35 min</td><td>8.58</td></tr>
+<tr><td>7:45 AM to 4:15 PM</td><td>45 min</td><td>7 h 45 min</td><td>7.75</td></tr>
+<tr><td>10:00 PM to 6:00 AM</td><td>30 min</td><td>7 h 30 min</td><td>7.50</td></tr>
+<tr><td>12:00 AM to 12:00 PM</td><td>0 min</td><td>12 h 00 min</td><td>12.00</td></tr>
+</tbody>
+</table>
+<p>If you work the first shift five days in a row, the total is 40 hours. At $20 an hour, that is $800.00 in gross pay. For the second shift at $17.25 an hour, one day comes to $148.06.</p>
+
+<h2>Rounding time on a time clock</h2>
+<p>Some employers round clock-in and clock-out times. Federal rules allow rounding to the nearest 5 minutes, the nearest tenth of an hour or the nearest quarter hour. The rule is that the rounding must average out so that, over time, employees are not paid less than the time they really worked. This calculator does not round your times. It uses the exact minutes you enter, so your result may differ slightly from a payroll system that rounds.</p>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>How do I calculate hours worked with a lunch break?</dt>
+<dd>Find the time between your start and end, then subtract the unpaid lunch. If you start at 9:00 AM, finish at 5:30 PM and take a 30-minute unpaid lunch, you worked 8 hours.</dd>
+<dt>How do I calculate an overnight shift?</dt>
+<dd>Enter the real start and end times. If the end time is earlier on the clock than the start time, the calculator adds a day. A shift from 10:00 PM to 6:00 AM is 8 hours before breaks.</dd>
+<dt>How do I turn hours and minutes into decimal hours?</dt>
+<dd>Divide the minutes by 60 and add the result to the hours. 7 hours 45 minutes is 7 + 45 ÷ 60 = 7.75 hours.</dd>
+<dt>Does this calculator include overtime?</dt>
+<dd>No. It adds up time and multiplies by one flat hourly rate. Under the Fair Labor Standards Act, many non-exempt workers must be paid at least one and a half times their regular rate for hours over 40 in a workweek. Count that extra pay separately.</dd>
+<dt>What if my shift is longer than 24 hours?</dt>
+<dd>This tool handles shifts up to just under 24 hours. For longer spans, enter each day as its own shift.</dd>
+<dt>Why is my result different from my paycheck?</dt>
+<dd>Your employer may round times, pay for breaks, or add overtime. Pay is also reduced by taxes and deductions. Ask your payroll office how time is counted.</dd>
+</dl>
+
+<div class="note">
+<p>This tool gives a general calculation from the numbers you enter. It is not legal, tax or payroll advice. Rules about breaks, overtime and rounding can differ by state and by job, so check with your employer or the Department of Labor if you are unsure.</p>
+</div>

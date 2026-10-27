@@ -6,6 +6,7 @@
   "category": "date",
   "keywords": ["date calculator", "days between dates", "add days to a date", "how many days until", "business days calculator", "date difference", "days from today", "weekdays between two dates"],
   "alternate": { "ja": "date-calc" },
+  "related": ["hours-calculator"],
   "sources": [
     { "title": "U.S. Naval Observatory: Leap Years", "url": "https://aa.usno.navy.mil/faq/leap_years" },
     { "title": "U.S. Naval Observatory: Calendars", "url": "https://aa.usno.navy.mil/faq/calendars" },

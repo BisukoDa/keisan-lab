@@ -489,7 +489,7 @@
     "priority": 1,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "Start/end/break, overnight shifts, decimal hours"
   },
   {

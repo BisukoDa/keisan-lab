@@ -1,0 +1,16 @@
+{
+  "title": "Hours Calculator: Time Between Two Times, Breaks & Overnight",
+  "shortTitle": "Hours Calculator",
+  "description": "Free hours calculator: enter a start time, end time and unpaid break to see hours worked per day, decimal hours for a time card, overnight shifts and gross pay.",
+  "lead": "How many hours did you work between 9:00 AM and 5:30 PM? Enter your start time, end time and break to get hours and minutes, decimal hours for payroll, and an optional pay estimate.",
+  "category": "work",
+  "keywords": ["hours calculator", "time card calculator", "hours worked calculator", "time between two times", "how many hours between times", "overnight shift hours calculator", "minutes to decimal hours"],
+  "related": ["salary-to-hourly-calculator", "date-calculator"],
+  "sources": [
+    { "title": "U.S. Department of Labor, Wage and Hour Division: Fact Sheet #22, Hours Worked Under the Fair Labor Standards Act (FLSA)", "url": "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked" },
+    { "title": "Electronic Code of Federal Regulations: 29 CFR 785.48, Use of time clocks", "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-785/subpart-D/section-785.48" },
+    { "title": "U.S. Department of Labor, Wage and Hour Division: Fact Sheet #23, Overtime Pay Requirements of the FLSA", "url": "https://www.dol.gov/agencies/whd/fact-sheets/23-flsa-overtime-pay" }
+  ],
+  "published": "2026-10-28",
+  "updated": "2026-10-28"
+}
