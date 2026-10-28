@@ -1,0 +1,18 @@
+{
+  "title": "残業代計算｜月給・時給から割増賃金の金額がわかる",
+  "shortTitle": "残業代計算",
+  "description": "月給（または時給）と残業時間を入れるだけで、時間外・月60時間超・深夜・法定休日の割増賃金を区分別に計算。1時間あたりの基礎賃金や内訳も表示します。",
+  "lead": "月給30万円で残業40時間だと、残業代はいくら？　深夜や休日に働いた分、月60時間を超えた分は割増率が変わります。月給と時間を入れて、区分ごとの金額を確かめましょう。",
+  "category": "work",
+  "keywords": ["残業代 計算", "割増賃金 計算", "残業代 月給", "深夜残業 割増率", "休日出勤 割増", "60時間超 残業代"],
+  "offers": [],
+  "related": ["jikyu", "percent"],
+  "sources": [
+    { "title": "厚生労働省「時間外・休日労働と割増賃金」（しっかり学ぼう！働くときの基礎知識）", "url": "https://www.check-roudou.mhlw.go.jp/study/roudousya_jikangai.html" },
+    { "title": "e-Gov法令検索「労働基準法」（第37条 時間外、休日及び深夜の割増賃金）", "url": "https://laws.e-gov.go.jp/law/322AC0000000049" },
+    { "title": "e-Gov法令検索「労働基準法施行規則」（第19条・第21条）", "url": "https://laws.e-gov.go.jp/law/322M40000100023" },
+    { "title": "厚生労働省「法定労働時間と割増賃金について教えてください。」", "url": "https://www.mhlw.go.jp/bunya/roudoukijun/faq_kijyungyosei07.html" }
+  ],
+  "published": "2026-10-29",
+  "updated": "2026-10-29"
+}

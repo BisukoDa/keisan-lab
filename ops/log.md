@@ -32,3 +32,4 @@
 | 2026-10-26 | publish | en/pounds-to-kg | Fable 93 (1回目合格) | Pounds to Kilograms Converter: lb and oz to kg, and Back |
 | 2026-10-27 | publish | tsubo | Fable 91 (1回目合格) | 坪・平米・畳の換算｜坪数が何㎡・何畳かすぐわかる |
 | 2026-10-28 | publish | en/hours-calculator | Fable 91 (2回目合格; 1回目88は eCFR URL の subpart 誤り) | Hours Calculator: Time Between Two Times, Breaks & Overnight |
+| 2026-10-29 | publish | zangyo | Fable 91 (1回目合格) | 残業代計算｜月給・時給から割増賃金の金額がわかる |
