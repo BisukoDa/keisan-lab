@@ -621,7 +621,7 @@
     "priority": 1,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "Sale price = price x (1 - discount%), savings, reverse (original price from sale price). Stacked discounts and sales tax are separate; cents rounding."
   },
   {

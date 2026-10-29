@@ -1,0 +1,14 @@
+{
+  "title": "Discount Calculator: Sale Price, Percent Off and Original Price",
+  "shortTitle": "Discount Calculator",
+  "description": "Free discount calculator: find the sale price from a percent off, work out the percent off from two prices, or find the original price. Handles an extra coupon discount.",
+  "lead": "What will I pay with 25% off? How big is this discount really? What did it cost before the sale? Pick a question, enter your numbers and get the answer to the cent, with the formula behind it.",
+  "category": "math",
+  "keywords": ["discount calculator", "percent off calculator", "sale price calculator", "how to calculate discount", "original price calculator", "reverse discount calculator", "stacked discount calculator", "percentage discount"],
+  "sources": [
+    { "title": "eCFR: 16 CFR Part 233, Guides Against Deceptive Pricing (Federal Trade Commission)", "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-233" }
+  ],
+  "related": ["percentage-calculator", "sales-tax-calculator", "tip-calculator"],
+  "published": "2026-10-30",
+  "updated": "2026-10-30"
+}

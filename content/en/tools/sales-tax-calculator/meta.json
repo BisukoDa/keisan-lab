@@ -9,7 +9,7 @@
     { "title": "USAGov: State and local taxes", "url": "https://www.usa.gov/state-taxes" },
     { "title": "IRS: Topic no. 503, Deductible taxes", "url": "https://www.irs.gov/taxtopics/tc503" }
   ],
-  "related": ["percentage-calculator", "tip-calculator"],
+  "related": ["percentage-calculator", "tip-calculator", "discount-calculator"],
   "published": "2026-10-20",
   "updated": "2026-10-20"
 }

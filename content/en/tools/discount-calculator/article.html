@@ -1,0 +1,67 @@
+<h2>What this calculator does</h2>
+<p>A discount is an amount taken off a price. Stores show it as a percent, such as "25% off", and the number on the tag is what you pay before sales tax. This calculator answers the three questions shoppers ask most often. Choose one from the menu, enter your numbers, and the result updates as you type.</p>
+<ul>
+<li><strong>Sale price.</strong> You know the original price and the percent off. You want the price you will pay and the money you save. You can also add an extra coupon, such as "extra 10% off".</li>
+<li><strong>Percent off.</strong> You know the original price and the sale price. You want to know how big the discount really is.</li>
+<li><strong>Original price.</strong> You know the sale price and the percent off. You want to know what the item cost before the sale.</li>
+</ul>
+<p>Money is worked out in whole cents, so you never see odd results like $16.9915 on screen.</p>
+
+<h2>How to use it</h2>
+<ol>
+<li>Pick what you want to calculate.</li>
+<li>Enter the prices. Use the price on the tag before the sale as the original price.</li>
+<li>Enter the discount. The box accepts up to three decimal places, in case a store offers something like 12.5% off.</li>
+<li>If you have a second coupon that comes off the sale price, put it in the extra discount box. Leave it at 0 otherwise.</li>
+<li>Read the answer. The main result is shown first, and the amount you save is shown next to it.</li>
+</ol>
+
+<h2>Discount formulas</h2>
+<p>A percent means "per hundred", so 25% is the same as 0.25. Every result comes from that one idea.</p>
+<p class="formula">Amount off = original price x percent off / 100<br>Sale price = original price - amount off = original price x (1 - percent off / 100)<br>Percent off = (original price - sale price) / original price x 100<br>Original price = sale price / (1 - percent off / 100)</p>
+<p>The last formula explains the "original price" mode. If you paid $60.00 after 25% off, the sale price is 0.75 times the original, so the original was 60 / 0.75 = $80.00. A common mistake is to add 25% to the sale price. That gives $75.00, which is wrong, because the 25% was taken off the larger original price, not off the smaller sale price.</p>
+<h3>Two discounts in a row</h3>
+<p>When a store takes 20% off and then gives an extra 10% off, the second discount applies to the price that is already reduced. The price becomes the original times 0.80 times 0.90, which is 0.72 of the original. That is 28% off in total, not 30%. Whenever two percents are stacked, the combined discount is a little smaller than their sum.</p>
+
+<h2>Worked examples</h2>
+<table>
+<thead><tr><th>Question</th><th>Calculation</th><th>Answer</th></tr></thead>
+<tbody>
+<tr><td>25% off an $80.00 item</td><td>80.00 x 0.75</td><td>Pay $60.00, save $20.00</td></tr>
+<tr><td>30% off $129.99</td><td>129.99 x 0.70 = 90.993, rounded to the cent</td><td>Pay $90.99, save $39.00</td></tr>
+<tr><td>30% off $129.99, then an extra 10% off</td><td>129.99 x 0.70 x 0.90 = 81.8937, rounded to the cent</td><td>Pay $81.89, save $48.10 (37% combined)</td></tr>
+<tr><td>Was $49.99, now $34.99</td><td>15.00 / 49.99 x 100</td><td>About 30.01% off</td></tr>
+<tr><td>Paid $42.00 after 30% off</td><td>42.00 / 0.70</td><td>Original price $60.00</td></tr>
+</tbody>
+</table>
+<p>The third row shows why stacking matters. 30% plus 10% sounds like 40% off, but the second discount only applies to the already-reduced price, so the real discount is 37%.</p>
+
+<h2>How rounding works here</h2>
+<p>Prices are in whole cents, so the sale price has to be rounded. This calculator rounds to the nearest cent, and a result of exactly half a cent is rounded up. The amount you save is the original price minus the rounded sale price, so the two always add up to the original.</p>
+<p>Real stores can differ a little. Some registers round each item and then add them up, and others round once at the end. If the exact cent matters, trust the receipt. This calculator does not add sales tax. Tax is usually charged on the sale price, so you can use the <a href="/en/tools/sales-tax-calculator/">sales tax calculator</a> next.</p>
+<p>In "original price" mode the calculator looks for the whole-cent price that gives your sale price after the discount. In rare cases no price matches exactly. The tool then shows the closest match and says so.</p>
+
+<h2>Is the "original price" real?</h2>
+<p>A big percent off only helps if the starting price is fair. The Federal Trade Commission publishes pricing guides for sellers. They say that a "former price" gives a legitimate basis for a price comparison if it is the actual, bona fide price at which the article was offered to the public on a regular basis for a reasonably substantial period of time. A price that was raised only to make a large reduction look good is described as fictitious, and the "bargain" is not a true one.</p>
+<p>As a shopper, you can protect yourself with a simple habit. Use the "percent off" mode here to see the real size of a discount, and compare the sale price with what other stores charge for the same item. The sale price you pay matters more than the number on the "was" tag.</p>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>How do I calculate a discount in my head?</dt>
+<dd>Find 10% by moving the decimal point one place left, then build up from there. For 30% off $60, 10% is $6, so 30% is $18 and the sale price is $42. For 25% off, take a quarter of the price.</dd>
+<dt>How do I find the percent off from two prices?</dt>
+<dd>Subtract the sale price from the original price, divide by the original price, and multiply by 100. For $80 down to $60, that is 20 / 80 x 100 = 25%.</dd>
+<dt>Do two discounts add together?</dt>
+<dd>No. When a second discount comes off the already-reduced price, the combined discount is smaller than the sum. 20% and then 10% is 28% off, not 30%. A few stores calculate both discounts from the original price, so read the coupon terms.</dd>
+<dt>Is the discount taken off before or after sales tax?</dt>
+<dd>Usually the discount comes off the price first, and tax is charged on the lower price. Rules differ for some manufacturer coupons and for different states, so check your receipt.</dd>
+<dt>Can a discount be more than 100%?</dt>
+<dd>No. 100% off means the item is free. This calculator accepts discounts from 0% to 100%.</dd>
+<dt>Why is the percent off I see on the tag a little different from yours?</dt>
+<dd>Stores often round the percent on the tag to a whole number. The "percent off" mode here shows two decimal places, so you can see the exact figure.</dd>
+</dl>
+
+<h2>Things to keep in mind</h2>
+<div class="note">
+<p>This calculator does the arithmetic only. It cannot tell whether the original price on a tag is a fair one, and it does not know a store's coupon rules or return policy. Check the terms of each offer before you buy. This page is general information, not financial advice.</p>
+</div>
