@@ -1,0 +1,69 @@
+<h2>What this calculator does</h2>
+<p>This credit card payoff calculator tells you how long it will take to clear a card balance and how much interest you will pay on the way. You enter the balance, the interest rate (APR) and what you plan to pay each month. The calculator then shows the number of months, the total interest, the total you will pay and a year-by-year table of payments, interest and the remaining balance.</p>
+<p>It also has a second mode for people who pay only the minimum. In that mode you enter the percent of the balance and the lowest payment your card uses, and the calculator shows how long minimum payments take. For many people the gap between the two modes is a surprise, and seeing it in numbers can help you choose a payment you can keep up.</p>
+
+<h2>How to use it</h2>
+<ul>
+<li><strong>Current balance.</strong> The amount you owe today, from your latest statement.</li>
+<li><strong>Interest rate (APR).</strong> The annual percentage rate on your statement. If your card has several rates, use the one that applies to the balance you are paying off.</li>
+<li><strong>How will you pay?</strong> Choose a fixed amount each month, or only the minimum payment.</li>
+<li><strong>Monthly payment.</strong> For the fixed mode. Pick an amount you can pay every month without missing one.</li>
+<li><strong>Minimum rule.</strong> For the minimum mode. Enter the percent of the balance your card uses and the lowest payment it asks for. Both are on your statement or in your card agreement.</li>
+</ul>
+<p>Do not add new purchases to the balance. The result assumes you stop using the card, or that you pay for new purchases in full each month.</p>
+
+<h2>How the calculation works</h2>
+<p>Credit card interest builds up on your balance. This calculator uses a simple monthly version of that idea. Each month it does three steps:</p>
+<p class="formula">Interest = Balance x APR / 12<br>New balance = Balance + Interest - Payment</p>
+<p>Interest is rounded to the cent each month, and the calculation repeats until the balance reaches zero. The last payment is usually smaller, because it only needs to cover what is left.</p>
+<p>With a fixed payment P, a monthly rate i (the APR divided by 12) and a balance B, the number of payments is close to this:</p>
+<p class="formula">Months = -ln(1 - B x i / P) / ln(1 + i)</p>
+<p>This formula only works when your payment is larger than the first month's interest (B x i). If it is not, your balance never goes down, and the calculator tells you so instead of showing a result.</p>
+<p>In minimum mode the payment changes every month. It is the percent of the current balance plus that month's interest, but never less than the lowest payment you enter, and never more than you owe. As the balance falls, the payment falls too, which is why this path takes so long. This percent-plus-interest rule is a simple model, not an official standard. Issuers' rules differ, so check your statement.</p>
+
+<h2>Why real cards can differ a little</h2>
+<p>The Consumer Financial Protection Bureau (CFPB) explains that many card issuers charge interest every day. They find a daily rate by dividing the APR by 360 or 365, depending on the issuer, and apply it to the balance at the end of each day. The interest is then added to the balance, so interest compounds daily.</p>
+<p>This calculator uses the APR divided by 12 each month instead. That is easy to follow and close to the real thing, but daily compounding usually costs a little more. Treat the results as a good estimate, not a statement from your bank. Your own statement shows the exact interest charged.</p>
+<p>The CFPB also notes that if you pay more than the minimum but less than the full balance, the issuer generally must apply the extra amount to the balance with the highest interest rate first. This calculator treats your card as one balance with one rate.</p>
+
+<h2>Calculation examples</h2>
+<p>These examples all start with a $5,000 balance at a 22% APR. The numbers come straight from the calculator.</p>
+<table>
+<thead><tr><th>Monthly payment</th><th>Time to pay off</th><th>Total interest</th><th>Total paid</th></tr></thead>
+<tbody>
+<tr><td>$150</td><td>52 months (4 years 4 months)</td><td>$2,798.09</td><td>$7,798.09</td></tr>
+<tr><td>$200</td><td>34 months (2 years 10 months)</td><td>$1,749.90</td><td>$6,749.90</td></tr>
+<tr><td>$300</td><td>21 months (1 year 9 months)</td><td>$1,021.61</td><td>$6,021.61</td></tr>
+<tr><td>$500</td><td>12 months (1 year)</td><td>$574.44</td><td>$5,574.44</td></tr>
+<tr><td>Minimum only (1% of balance + interest, $25 floor)</td><td>230 months (19 years 2 months)</td><td>$8,099.70</td><td>$13,099.70</td></tr>
+</tbody>
+</table>
+<p>Look at the jump from $150 to $200. An extra $50 a month cuts the payoff time by 18 months and saves more than $1,000 in interest. The minimum-only path starts with a payment of $141.67, but because the payment shrinks with the balance, it takes more than 19 years and costs more interest than the original $5,000.</p>
+<p>The first month's interest at 22% on $5,000 is $91.67. A payment of $90 would not even cover that, so the balance would grow. The lowest useful payment is anything above the first month's interest, and the closer you stay to it, the longer the debt lasts.</p>
+
+<h2>Ways to pay off a card faster</h2>
+<ul>
+<li><strong>Pay more than the minimum.</strong> Even a small extra amount goes straight to the balance and reduces future interest.</li>
+<li><strong>Keep the payment steady.</strong> If you pay a fixed amount, do not lower it as your balance falls. A steady payment is what makes the balance drop faster over time.</li>
+<li><strong>Stop new charges.</strong> New purchases add to the balance and push the finish date back.</li>
+<li><strong>Compare rates.</strong> A lower APR means more of each payment goes to principal. Check the terms of any offer carefully, including fees and when a promotional rate ends.</li>
+<li><strong>Pay on time.</strong> Late payments can bring fees and may raise your rate.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>How long will it take to pay off my credit card?</dt>
+<dd>It depends on the balance, the APR and your monthly payment. Enter all three in the calculator. For example, $5,000 at 22% APR takes 34 months with a $200 payment.</dd>
+<dt>Why does paying only the minimum take so long?</dt>
+<dd>Most of a minimum payment goes to interest at first, and the payment gets smaller as the balance falls. A small payment on a large balance with a high rate pays off very slowly.</dd>
+<dt>Is my APR the same as my monthly rate?</dt>
+<dd>No. The APR is a yearly rate. A simple monthly rate is the APR divided by 12. For example, 22% APR is about 1.83% per month.</dd>
+<dt>Can I use this for a store card or a retail card?</dt>
+<dd>Yes, if you enter the balance and APR of that card. Some store cards use deferred-interest offers, which this calculator does not model.</dd>
+<dt>What if the calculator says my payment is too low?</dt>
+<dd>Your payment is not larger than one month of interest. Raise the payment until it is clearly above the interest charged each month.</dd>
+</dl>
+
+<div class="note">
+<p><strong>Please note:</strong> This calculator gives estimates for learning and planning. It does not include new purchases, fees, rate changes, promotional offers or the exact way your issuer calculates interest and minimum payments. Your card statement and cardholder agreement are the final word. It is not financial advice. If you are struggling with debt, a nonprofit credit counselor can help you look at your options.</p>
+</div>

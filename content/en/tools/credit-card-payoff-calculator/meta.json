@@ -1,0 +1,35 @@
+{
+  "title": "Credit Card Payoff Calculator: Months to Pay Off & Interest",
+  "shortTitle": "Credit Card Payoff",
+  "description": "Free credit card payoff calculator: enter your balance, APR and monthly payment to see how many months it takes, total interest, and the cost of minimums.",
+  "lead": "How long will it take to pay off your credit card, and how much interest will you pay along the way? Enter your balance, your APR and what you can pay each month, or switch to minimum payments to see the difference.",
+  "category": "money",
+  "keywords": [
+    "credit card payoff calculator",
+    "how long to pay off credit card",
+    "credit card interest calculator",
+    "minimum payment calculator",
+    "pay off credit card debt",
+    "credit card APR calculator"
+  ],
+  "related": [
+    "loan-calculator",
+    "compound-interest-calculator"
+  ],
+  "sources": [
+    {
+      "title": "Consumer Financial Protection Bureau: What is a \"daily periodic rate\" on a credit card?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-daily-periodic-rate-on-a-credit-card-en-46/"
+    },
+    {
+      "title": "Consumer Financial Protection Bureau: How does my credit card company calculate the amount of interest I owe?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-my-credit-card-company-calculate-the-amount-of-interest-i-owe-en-51/"
+    },
+    {
+      "title": "Consumer Financial Protection Bureau: What is a credit card interest rate? What does APR mean?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-card-interest-rate-what-does-apr-mean-en-44/"
+    }
+  ],
+  "published": "2026-11-02",
+  "updated": "2026-11-02"
+}

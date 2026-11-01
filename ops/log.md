@@ -34,3 +34,4 @@
 | 2026-10-28 | publish | en/hours-calculator | Fable 91 (2回目合格; 1回目88は eCFR URL の subpart 誤り) | Hours Calculator: Time Between Two Times, Breaks & Overnight |
 | 2026-10-29 | publish | zangyo | Fable 91 (1回目合格) | 残業代計算｜月給・時給から割増賃金の金額がわかる |
 | 2026-10-30 | publish | en/discount-calculator | Fable 92 (1回目合格) | Discount Calculator: Sale Price, Percent Off and Original Price |
+| 2026-11-02 | publish | en/credit-card-payoff-calculator | Fable 93 (2回目合格; 1回目80は出典の資料名・URL不一致) | Credit Card Payoff Calculator: Months to Pay Off & Interest |
