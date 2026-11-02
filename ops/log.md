@@ -35,3 +35,4 @@
 | 2026-10-29 | publish | zangyo | Fable 91 (1回目合格) | 残業代計算｜月給・時給から割増賃金の金額がわかる |
 | 2026-10-30 | publish | en/discount-calculator | Fable 92 (1回目合格) | Discount Calculator: Sale Price, Percent Off and Original Price |
 | 2026-11-02 | publish | en/credit-card-payoff-calculator | Fable 93 (2回目合格; 1回目80は出典の資料名・URL不一致) | Credit Card Payoff Calculator: Months to Pay Off & Interest |
+| 2026-11-03 | publish | kurisage | Fable 92 (1回目合格) | 繰上げ返済シミュレーション｜期間短縮型と返済額軽減型を比較 |
