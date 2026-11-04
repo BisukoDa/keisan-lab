@@ -37,3 +37,4 @@
 | 2026-11-02 | publish | en/credit-card-payoff-calculator | Fable 93 (2回目合格; 1回目80は出典の資料名・URL不一致) | Credit Card Payoff Calculator: Months to Pay Off & Interest |
 | 2026-11-03 | publish | kurisage | Fable 92 (1回目合格) | 繰上げ返済シミュレーション｜期間短縮型と返済額軽減型を比較 |
 | 2026-11-04 | publish | en/debt-to-income-calculator | Fable 91 (1回目合格) | Debt-to-Income (DTI) Ratio Calculator: Check Your DTI Fast |
+| 2026-11-05 | publish | fukugyo-shinkoku | Fable 90 (2回目合格; 1回目68は未調整給与を収入金額でなく所得金額で合算していた計算誤り) | 副業の確定申告｜20万円ルールで申告が必要か判定 |

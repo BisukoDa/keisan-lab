@@ -1,0 +1,16 @@
+{
+  "title": "副業の確定申告｜20万円ルールで申告が必要か判定",
+  "shortTitle": "副業の確定申告判定",
+  "description": "給与と副業の収入・必要経費を入れると、副業の所得が20万円を超えるか、所得税の確定申告が必要かを判定します。勤務先が2か所以上の場合にも対応。",
+  "lead": "「副業の収入が増えてきたけれど、確定申告は必要？」「20万円以下なら申告しなくていいと聞いたけれど、収入と所得のどちらで見るの？」という疑問に、数字を入れるだけで答えます。",
+  "category": "work",
+  "keywords": ["副業 確定申告", "副業 20万円", "副業 確定申告 いくらから", "副業 所得 計算", "会社員 確定申告 必要か", "副業 住民税"],
+  "offers": ["accounting"],
+  "related": ["jikyu", "zangyo", "percent"],
+  "sources": [
+    { "title": "国税庁 No.1900 給与所得者で確定申告が必要な人", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm" }
+  ],
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "reviewYearly": true
+}
