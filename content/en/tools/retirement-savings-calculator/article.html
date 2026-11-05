@@ -1,0 +1,68 @@
+<h2>What this calculator does</h2>
+<p>A 401(k) is a retirement savings plan offered by many employers in the United States. You choose a share of each paycheck to put in. Many employers also add money of their own, called a match. The money is invested and can grow for decades.</p>
+<p>This calculator estimates what your 401(k) could be worth on the day you retire. It uses your age, retirement age, current balance, salary, savings rate, employer match, yearly raise and expected return. You get five results:</p>
+<ul>
+<li><strong>Estimated balance at retirement:</strong> the projected total in future dollars.</li>
+<li><strong>In today's dollars:</strong> the same total after taking out the effect of inflation, so you can judge what it might buy.</li>
+<li><strong>Your total contributions:</strong> everything you put in from your paychecks.</li>
+<li><strong>Total employer match:</strong> the free money your employer adds.</li>
+<li><strong>Investment growth:</strong> what is left after subtracting your starting balance and all contributions.</li>
+</ul>
+<p>A collapsible table shows your salary, contributions and balance for every year until you retire.</p>
+
+<h2>How to use it</h2>
+<ol>
+<li><strong>Current age and retirement age.</strong> Both are whole numbers. The retirement age must be higher than your current age.</li>
+<li><strong>Current 401(k) balance.</strong> What the account holds today. Use 0 if you are just starting.</li>
+<li><strong>Current annual salary.</strong> Your pay before taxes.</li>
+<li><strong>Your contribution.</strong> The share of your salary you save, such as 8%.</li>
+<li><strong>Employer match rate and limit.</strong> A common plan says "50% of what you contribute, up to 6% of pay". That means a match rate of 50 and a limit of 6. Check your plan documents for your own numbers. Enter 0 for the rate if there is no match.</li>
+<li><strong>Yearly raise, annual return and inflation.</strong> These are guesses about the future. Try a low, a middle and a high value to see the range.</li>
+</ol>
+<p>Results update as you type.</p>
+
+<h2>How the calculation works</h2>
+<p>The calculator moves forward one year at a time. In each year it does three things in order:</p>
+<p class="formula">New balance = old balance × (1 + return) + your contribution + employer match</p>
+<p>Your contribution is your salary times your savings rate. The employer match is the match rate times the smaller of two amounts: your contribution, or the match limit times your salary. Then your salary goes up by the yearly raise for the next year.</p>
+<p>Contributions are assumed to be paid in at the end of each year. In real life you contribute every paycheck, so your money would be invested a little sooner and the real result could be slightly higher.</p>
+<p>To show the result in today's dollars, the final balance is divided by (1 + inflation) raised to the number of years until you retire.</p>
+
+<h2>IRS limits built into the calculator</h2>
+<p>The IRS caps how much you can put into a 401(k) from your own pay each year. For 2026 the limit is $24,500. People who are 50 or older can add a catch-up amount of $8,000, for a total of $32,500. Under a rule from the SECURE 2.0 Act, people aged 60 to 63 can add a higher catch-up of $11,250 instead, for a total of $35,750, if their plan allows it.</p>
+<p>If your savings rate would go above the limit for your age, the calculator stops at the limit and tells you. The IRS changes these limits from year to year. This tool keeps them at 2026 values for every future year, which is a simple assumption and not a forecast.</p>
+
+<h2>Worked examples</h2>
+<p>The base case is a 30-year-old with a $20,000 balance and a $70,000 salary. They save 8%, get a 50% match up to 6% of pay, earn a 3% raise each year, and expect a 6% return and 2.5% inflation. They retire at 65.</p>
+<table>
+<thead><tr><th>Scenario</th><th>Balance at retirement</th><th>In today's dollars</th></tr></thead>
+<tbody>
+<tr><td>Base case (retire at 65)</td><td>$1,404,259.32</td><td>$591,714.25</td></tr>
+<tr><td>Same, but no employer match</td><td>$1,063,203.61</td><td>$448,003.24</td></tr>
+<tr><td>Same, saving 10% instead of 8%</td><td>$1,631,629.79</td><td>$687,521.58</td></tr>
+<tr><td>Same, retiring at 67</td><td>$1,623,109.26</td><td>$650,975.64</td></tr>
+<tr><td>Same, but starting at age 40</td><td>$650,014.56</td><td>$350,611.74</td></tr>
+<tr><td>Same, but a 4% return</td><td>$950,736.22</td><td>$400,612.73</td></tr>
+<tr><td>Same, but an 8% return</td><td>$2,139,315.09</td><td>$901,445.48</td></tr>
+</tbody>
+</table>
+<p>In the base case, you put in $338,587.66, your employer adds $126,970.37, and investment growth supplies the remaining $918,701.29. The match alone is worth about $340,000 more at retirement in this example. Starting ten years later cuts the result by more than half. Time in the market matters as much as the amount you save.</p>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>What return should I enter?</dt>
+<dd>Nobody knows future returns. Stock-heavy portfolios have historically earned more than bonds over long periods, but with big ups and downs, and past results do not guarantee future ones. Try several values, including a low one, and avoid planning around the best case.</dd>
+<dt>Does the employer match count toward the $24,500 limit?</dt>
+<dd>No. The $24,500 limit applies to your own pay deferrals. Employer contributions fall under a separate, higher overall limit for all contributions to the plan. This calculator checks only your own limit.</dd>
+<dt>What is vesting?</dt>
+<dd>Some employers require you to work for a set time before the match is fully yours. If you leave early, you may lose part of it. This calculator assumes you keep all of it.</dd>
+<dt>Is this traditional or Roth?</dt>
+<dd>The calculator does not separate them. A traditional 401(k) is taxed when you withdraw, while Roth withdrawals can be tax-free if the rules are met. The balance shown is before any tax on withdrawals.</dd>
+<dt>Why show today's dollars?</dt>
+<dd>Prices rise over time, so a million dollars in 35 years buys less than a million dollars now. Dividing by inflation gives a more useful sense of what the balance could do for you.</dd>
+</dl>
+
+<h2>Things to keep in mind</h2>
+<div class="note">
+<p>This is an estimate, not a promise and not tax or investment advice. Real returns change every year, and your account can lose value. The calculator does not include fees, taxes, vesting, withdrawal rules, Social Security or the IRS limit on pay that can be used for plan calculations. Check the figures for your own plan with your plan administrator, and see the IRS pages listed below for the current limits.</p>
+</div>

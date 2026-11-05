@@ -1,0 +1,37 @@
+{
+  "title": "401(k) Retirement Savings Calculator with Employer Match",
+  "shortTitle": "401(k) Calculator",
+  "description": "Free 401(k) calculator: enter your age, salary, contribution, employer match and expected return to estimate your balance at retirement, with 2026 IRS limits applied.",
+  "lead": "Will your 401(k) be enough? Enter your age, pay, how much you save and what your employer adds, and see an estimated balance at retirement, in future dollars and in today's dollars, plus a year-by-year table.",
+  "category": "money",
+  "keywords": [
+    "401k calculator",
+    "401(k) retirement calculator",
+    "retirement savings calculator",
+    "401k calculator with employer match",
+    "401k contribution limit 2026",
+    "how much will my 401k be worth",
+    "retirement calculator"
+  ],
+  "reviewYearly": true,
+  "related": [
+    "compound-interest-calculator",
+    "salary-to-hourly-calculator"
+  ],
+  "sources": [
+    {
+      "title": "Internal Revenue Service: 401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500",
+      "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+    },
+    {
+      "title": "Internal Revenue Service: Retirement topics - Catch-up contributions",
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-catch-up-contributions"
+    },
+    {
+      "title": "Investor.gov (U.S. SEC): Compound Interest Calculator",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+    }
+  ],
+  "published": "2026-11-06",
+  "updated": "2026-11-06"
+}
