@@ -144,7 +144,7 @@
     "priority": 2,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "人数、端数の切り上げ単位（10円/100円/1000円）、幹事の負担調整、傾斜（多め・少なめ）"
   },
   {
