@@ -40,3 +40,4 @@
 | 2026-11-05 | publish | fukugyo-shinkoku | Fable 90 (2回目合格; 1回目68は未調整給与を収入金額でなく所得金額で合算していた計算誤り) | 副業の確定申告｜20万円ルールで申告が必要か判定 |
 | 2026-11-06 | publish | en/retirement-savings-calculator | Fable 92 (1回目合格) | 401(k) Retirement Savings Calculator with Employer Match |
 | 2026-11-07 | publish | warikan | Fable 90 (1回目合格) | 割り勘計算｜端数の切り上げと幹事の余りまでわかる |
+| 2026-11-08 | publish | en/take-home-pay-calculator | Fable 93 (1回目合格) | Take-Home Pay Calculator: Federal Tax, FICA and Net Paycheck |

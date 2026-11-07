@@ -1,0 +1,18 @@
+{
+  "title": "Take-Home Pay Calculator: Federal Tax, FICA and Net Paycheck",
+  "shortTitle": "Take-Home Pay Calculator",
+  "description": "Free take-home pay calculator for 2026: enter your yearly salary to estimate federal income tax, Social Security, Medicare and your net pay per paycheck.",
+  "lead": "How much of your salary will actually land in your bank account? Enter your gross pay, filing status and pre-tax deductions to see an estimate of your 2026 federal taxes, FICA and your take-home pay per paycheck.",
+  "category": "work",
+  "keywords": ["take home pay calculator", "paycheck calculator", "salary after tax calculator", "net pay calculator", "federal income tax calculator 2026", "fica tax calculator", "how much is 75000 after taxes"],
+  "related": ["salary-to-hourly-calculator", "retirement-savings-calculator", "percentage-calculator"],
+  "sources": [
+    { "title": "IRS: Tax inflation adjustments for tax year 2026, including amendments from the One Big Beautiful Bill", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill" },
+    { "title": "Social Security Administration: Contribution and Benefit Base", "url": "https://www.ssa.gov/oact/cola/cbb.html" },
+    { "title": "IRS: Topic no. 560, Additional Medicare Tax", "url": "https://www.irs.gov/taxtopics/tc560" },
+    { "title": "Social Security Administration: What is the maximum amount of earnings subject to Social Security tax?", "url": "https://www.ssa.gov/faqs/en/questions/KA-02387.html" }
+  ],
+  "reviewYearly": true,
+  "published": "2026-11-08",
+  "updated": "2026-11-08"
+}
