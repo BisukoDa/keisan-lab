@@ -281,7 +281,7 @@
       "accounting"
     ],
     "status": "todo",
-    "notes": "所得税・住民税・社会保険料。毎年改正（基礎控除・給与所得控除の見直し）を必ず確認。reviewYearly。サイトのツール数が20本を超えてから着手"
+    "notes": "所得税・住民税・社会保険料。毎年改正（基礎控除・給与所得控除の見直し）を必ず確認。reviewYearly。サイトのツール数が20本を超えてから着手。2026-11-09: 令和8年12月施行の基礎控除改正で一次情報の表を確定できず着手見送り（要再確認）"
   },
   {
     "slug": "furusato",
@@ -722,5 +722,117 @@
     "offers": [],
     "status": "done",
     "notes": "Verify 2026 brackets and standard deduction on irs.gov. reviewYearly. Not tax advice."
+  },
+  {
+    "slug": "nenshuu-kabe",
+    "title": "年収の壁チェック（103万・130万・106万）",
+    "category": "work",
+    "priority": 1,
+    "complexity": "high",
+    "offers": [
+      "accounting"
+    ],
+    "status": "todo",
+    "notes": "所得税の壁は基礎控除・給与所得控除の改正で変わる。社会保険の106万・130万の壁は国税庁・厚労省で確認。reviewYearly"
+  },
+  {
+    "slug": "ikukyu-kyufu",
+    "title": "育児休業給付金の計算（支給額の目安）",
+    "category": "work",
+    "priority": 1,
+    "complexity": "medium",
+    "offers": [],
+    "status": "todo",
+    "notes": "休業開始時賃金日額×67%（180日まで）、以降50%。上限下限は毎年8月改定。reviewYearly"
+  },
+  {
+    "slug": "shitsugyo-teate",
+    "title": "失業保険（基本手当）の日額・受給額計算",
+    "category": "work",
+    "priority": 1,
+    "complexity": "high",
+    "offers": [],
+    "status": "todo",
+    "notes": "賃金日額・給付率・年齢別上限。毎年8月改定。厚労省で確認。reviewYearly"
+  },
+  {
+    "slug": "taishoku-zei",
+    "title": "退職金の所得税・住民税の計算（退職所得控除）",
+    "category": "money",
+    "priority": 1,
+    "complexity": "medium",
+    "offers": [
+      "accounting"
+    ],
+    "status": "todo",
+    "notes": "退職所得控除、2分の1課税。国税庁 No.1420。reviewYearly"
+  },
+  {
+    "slug": "iryohi-kojo",
+    "title": "医療費控除の計算（還付額の目安）",
+    "category": "money",
+    "priority": 1,
+    "complexity": "medium",
+    "offers": [
+      "accounting"
+    ],
+    "status": "todo",
+    "notes": "国税庁 No.1120。一般計算として明記。reviewYearly"
+  },
+  {
+    "slug": "kougaku-ryouyouhi",
+    "title": "高額療養費の自己負担限度額の計算",
+    "category": "life",
+    "priority": 1,
+    "complexity": "high",
+    "offers": [],
+    "status": "todo",
+    "notes": "厚労省で一次確認。制度改定予定に注意。reviewYearly"
+  },
+  {
+    "slug": "jidou-teate",
+    "title": "児童手当の月額計算（年齢・第何子か）",
+    "category": "life",
+    "priority": 2,
+    "complexity": "low",
+    "offers": [],
+    "status": "todo",
+    "notes": "2024年10月からの制度。こども家庭庁で確認"
+  },
+  {
+    "slug": "zouyo-zei",
+    "title": "贈与税の計算（暦年課税・110万円控除）",
+    "category": "money",
+    "priority": 2,
+    "complexity": "medium",
+    "offers": [
+      "accounting"
+    ],
+    "status": "todo",
+    "notes": "国税庁 No.4408。相続時精算課税は対象外。reviewYearly"
+  },
+  {
+    "slug": "sozoku-zei",
+    "title": "相続税の計算（基礎控除・法定相続分）",
+    "category": "money",
+    "priority": 2,
+    "complexity": "high",
+    "offers": [
+      "accounting"
+    ],
+    "status": "todo",
+    "notes": "国税庁 No.4152・4155。小規模宅地特例は対象外と明記"
+  },
+  {
+    "slug": "jutaku-loan-kojo",
+    "title": "住宅ローン控除の控除額シミュレーション",
+    "category": "money",
+    "priority": 1,
+    "complexity": "high",
+    "offers": [
+      "mortgage"
+    ],
+    "status": "todo",
+    "notes": "国交省・国税庁で確認。reviewYearly"
   }
 ]

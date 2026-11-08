@@ -41,3 +41,4 @@
 | 2026-11-06 | publish | en/retirement-savings-calculator | Fable 92 (1回目合格) | 401(k) Retirement Savings Calculator with Employer Match |
 | 2026-11-07 | publish | warikan | Fable 90 (1回目合格) | 割り勘計算｜端数の切り上げと幹事の余りまでわかる |
 | 2026-11-08 | publish | en/take-home-pay-calculator | Fable 93 (1回目合格) | Take-Home Pay Calculator: Federal Tax, FICA and Net Paycheck |
+| 2026-11-09 | skip | nenpi | Fable 審査不能（利用枠切れ 429）のため未公開 | 下書きは未コミット。backlog は todo のまま。tedori は令和8年分の基礎控除改正の一次情報が確定できず見送り。topic-scout で ja 候補10件を追加 |
