@@ -1,0 +1,14 @@
+{
+  "title": "Final Grade Calculator: What Score Do I Need on the Final?",
+  "shortTitle": "Final Grade Calculator",
+  "description": "Find the score you need on your final exam to reach your target grade, or work out your weighted course grade from homework, quizzes and exams, with formulas.",
+  "lead": "What do I need on my final to get a B? Enter your current grade, how much the final counts and the grade you want, and see the exact score you need. You can also work out a weighted course grade.",
+  "category": "math",
+  "keywords": ["final grade calculator", "what do I need on my final", "final exam grade calculator", "weighted grade calculator", "grade calculator", "what grade do I need on the final to pass", "course grade calculator"],
+  "related": ["percentage-calculator"],
+  "sources": [
+    { "title": "Math Is Fun: Weighted Mean", "url": "https://www.mathsisfun.com/data/weighted-mean.html" }
+  ],
+  "published": "2026-11-10",
+  "updated": "2026-11-10"
+}

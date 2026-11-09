@@ -1,0 +1,68 @@
+<h2>What this calculator does</h2>
+<p>Many college and high school classes do not average every score equally. Homework might count for 20% of the grade, a midterm for 30% and the final exam for 30%. This tool handles the two questions students ask most often about that kind of grading.</p>
+<ul>
+<li><strong>Score I need on my final exam.</strong> Enter your current grade, the weight of the final and the grade you want. The tool tells you the lowest final-exam score that gets you there.</li>
+<li><strong>My weighted grade so far.</strong> Enter up to five categories, such as homework, quizzes and a midterm, with the weight and your score in each. The tool combines them into one grade.</li>
+</ul>
+<p>It also shows your best and worst possible course grades, so you can see how much the final can still move your result.</p>
+
+<h2>How to use it</h2>
+<ol>
+<li>Pick what you want to calculate.</li>
+<li>For the final-exam question, enter your grade so far as a percent. If your class uses points, divide the points you earned by the points possible so far, then multiply by 100.</li>
+<li>Enter the weight of the final exam. Your syllabus lists it, usually in a grading table.</li>
+<li>Enter the grade you want in the course, such as 90 for an A on a common scale.</li>
+</ol>
+<p>Weights can be from 0.01% to 100%, and grades can be from 0% to 200% to allow for extra credit. Numbers outside those ranges show a message instead of a result.</p>
+<p>For the weighted grade, enter a weight and a score for each category you have graded work in. Leave unused rows empty, and do not enter categories with no grades yet.</p>
+<p>The answer updates as you type. If you are not sure about the weight, try a few values. The results show how sensitive the answer is.</p>
+
+<h2>Formulas</h2>
+<p>A weight is the share of the course grade that one part is worth. All the weights in a course add up to 100%. The course grade is a <em>weighted average</em>: multiply each score by its weight, then add the results.</p>
+<p class="formula">Course grade = (current grade × (100% − final weight)) + (final score × final weight)</p>
+<p>Solving that for the final score gives the formula this tool uses:</p>
+<p class="formula">Score needed = (target − current grade × (1 − w)) ÷ w<br>w = final exam weight as a decimal (30% = 0.30)</p>
+<p>For the weighted grade of the work counted so far, the tool divides by the weight that has been graded:</p>
+<p class="formula">Weighted grade = Σ(weight × score) ÷ Σ(weight)</p>
+<p>This is the standard weighted mean, which gives each value a different level of importance instead of treating all values the same.</p>
+
+<h2>Worked examples</h2>
+<table>
+<caption>Score needed on the final, rounded up to two decimal places</caption>
+<thead><tr><th>Current grade</th><th>Final weight</th><th>Target</th><th>Score needed on the final</th></tr></thead>
+<tbody>
+<tr><td>75%</td><td>40%</td><td>80%</td><td>87.50%</td></tr>
+<tr><td>88%</td><td>25%</td><td>90%</td><td>96.00%</td></tr>
+<tr><td>82%</td><td>30%</td><td>85%</td><td>92.00%</td></tr>
+<tr><td>82%</td><td>30%</td><td>86%</td><td>95.34%</td></tr>
+<tr><td>60%</td><td>20%</td><td>95%</td><td>235.00% (out of reach)</td></tr>
+</tbody>
+</table>
+<p>All needed scores are shown with two decimal places, the same way the tool shows them. The tool rounds up, never down, so 95.333… becomes 95.34%.</p>
+<p>Take the third row. You have an 82% and the final is worth 30%. The first 70% of the course is already locked in, so it contributes 82 × 0.70 = 57.4 points. To reach 85, the final must supply the other 27.6 points. Divide by 0.30 and you get 92%. If you score 100% on the final, your best possible course grade is 87.4%. If you score 0%, you finish at 57.4%.</p>
+<p>Now a weighted grade. Homework is 20% with a 92% score, quizzes are 20% with 85%, and the midterm is 30% with 78%. The points are 18.4 + 17 + 23.4 = 58.8. That is out of the 70% of the course graded so far, so the weighted grade is 58.8 ÷ 0.70 = 84%.</p>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>What if the score I need is over 100%?</dt>
+<dd>Then the target cannot be reached with the final exam alone. You would need extra credit or a lower target. The tool shows the number anyway, so you can see how far away the goal is.</dd>
+<dt>What if the score I need is 0%?</dt>
+<dd>That means you already reach your target even if you score nothing on the final. The tool shows 0% and says so.</dd>
+<dt>Does the tool round the score I need?</dt>
+<dd>Yes, to two decimal places, and it rounds the needed score up. That way the displayed number never understates what you must earn.</dd>
+<dt>Why does my weighted grade ignore the ungraded part of the course?</dt>
+<dd>The tool divides by the weight graded so far, so the result is your average on the work counted. It is not a prediction of your final grade. For a prediction, use the final-exam mode.</dd>
+<dt>Which letter grade scale does it use?</dt>
+<dd>A common 90/80/70/60 scale. Many schools use plus and minus grades or different cutoffs, so check your syllabus.</dd>
+</dl>
+
+<h2>Things to keep in mind</h2>
+<div class="note">
+<p>Your instructor's gradebook is the official record. Curves, dropped lowest scores, extra credit, rounding rules and late penalties can all change the real number. Use this tool for planning, and ask your instructor if a target is close to a cutoff.</p>
+</div>
+<p>When you enter your current grade, use the grade that already includes all graded work and its own weights. Averaging raw scores by hand can give a different answer if the categories have different weights. The weighted mode above handles that case. If a result looks surprising, check that the final exam weight is a percent of the whole course, not a percent of one category.</p>
+<h3>Plan your study time</h3>
+<p>A big final can feel scary. Seeing the exact score you need turns worry into a clear goal. If you need 70%, you may be closer than you think. If you need 98%, you can decide whether to aim for it or set a different target, such as a B instead of an A.</p>
+<h3>Compare targets</h3>
+<p>Change only the target grade and watch the needed score move. For a final worth 30%, every extra point in your course grade costs a little more than three points on the exam, because 1 ÷ 0.30 is about 3.33. The heavier the final, the less that cost.</p>
+<p>For other percent questions, such as a percent change or a percent of a number, try the <a href="/en/tools/percentage-calculator/">Percentage Calculator</a>.</p>
