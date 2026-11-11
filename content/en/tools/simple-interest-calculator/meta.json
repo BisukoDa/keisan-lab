@@ -1,0 +1,34 @@
+{
+  "title": "Simple Interest Calculator: I = P × r × t With Months",
+  "shortTitle": "Simple Interest Calculator",
+  "description": "Free simple interest calculator: enter principal, annual rate and time in years and months to see total interest, the final amount and how it compares with compounding.",
+  "lead": "How much interest will a deposit or loan earn if interest is only charged on the original amount? Enter the principal, the yearly rate and the time to see the interest, the total and how it compares with compound interest.",
+  "category": "money",
+  "keywords": [
+    "simple interest calculator",
+    "simple interest formula",
+    "I = Prt calculator",
+    "how to calculate simple interest",
+    "simple interest vs compound interest",
+    "simple interest calculator with months",
+    "interest on principal only"
+  ],
+  "offers": [],
+  "related": [
+    "compound-interest-calculator",
+    "loan-calculator",
+    "credit-card-payoff-calculator"
+  ],
+  "sources": [
+    {
+      "title": "Investor.gov (U.S. SEC): Brokered CDs, Investor Bulletin (simple vs. compound interest example)",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/brokered-cds-investor-bulletin"
+    },
+    {
+      "title": "Consumer Financial Protection Bureau: What's the difference between a simple interest rate and precomputed interest on an auto loan?",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-simple-interest-rate-and-precomputed-interest-on-an-auto-loan-en-841/"
+    }
+  ],
+  "published": "2026-11-12",
+  "updated": "2026-11-12"
+}
