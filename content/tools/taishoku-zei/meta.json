@@ -1,0 +1,19 @@
+{
+  "title": "退職金の税金計算｜所得税・住民税と手取りの目安がわかる",
+  "shortTitle": "退職金の税金計算",
+  "description": "退職金の額と勤続年数を入れると、退職所得控除額、所得税・復興特別所得税、住民税、手取りの目安を計算します。2分の1課税や障害退職にも対応。",
+  "lead": "退職金にはどれくらい税金がかかるの？　退職金は「退職所得控除」と「2分の1課税」で、ふだんの給料より税金が軽くなります。金額と勤続年数を入れて、税額と手取りを確かめましょう。",
+  "category": "money",
+  "keywords": ["退職金 税金 計算", "退職所得控除 計算", "退職金 手取り", "退職金 住民税", "退職金 所得税 いくら", "退職所得 2分の1課税"],
+  "offers": ["accounting"],
+  "related": ["fukugyo-shinkoku", "zangyo", "percent"],
+  "reviewYearly": true,
+  "sources": [
+    { "title": "国税庁 タックスアンサー No.1420 退職金を受け取ったとき（退職所得）", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm" },
+    { "title": "国税庁 タックスアンサー No.2732 退職手当等に対する源泉徴収", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2732.htm" },
+    { "title": "国税庁 タックスアンサー No.2260 所得税の税率", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm" },
+    { "title": "総務省 平成25年1月1日以降の退職所得に対する住民税の特別徴収について", "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/65871.html" }
+  ],
+  "published": "2026-11-13",
+  "updated": "2026-11-13"
+}

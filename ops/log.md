@@ -45,3 +45,4 @@
 | 2026-11-10 | publish | en/grade-calculator | Fable 91 (3回目合格; 1回目80・2回目78は極端値の Infinity 表示と浮動小数点の0.01誤差) | Final Grade Calculator: What Score Do I Need on the Final? |
 | 2026-11-11 | publish | ikukyu-kyufu | Fable 91 (2回目合格; 1回目80は181日目以降の賃金減額基準30%と給付対象期間の記載漏れ) | 育児休業給付金の計算｜月収から支給額の目安がわかる |
 | 2026-11-12 | publish | en/simple-interest-calculator | Fable 90 (2回目合格; 1回目78は1年未満で比較欄がマイナスになる点と Investor.gov 例の引用違い) | Simple Interest Calculator: I = P × r × t With Months |
+| 2026-11-13 | publish | taishoku-zei | Fable 91 (3回目合格; 1回目68は制度改正の記述・住民税の端数処理・短期退職手当等の扱い、2回目84は令和9年以後の記述の食い違い) | 退職金の税金計算｜所得税・住民税と手取りの目安がわかる |
