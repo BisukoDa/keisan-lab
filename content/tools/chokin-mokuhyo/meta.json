@@ -36,5 +36,8 @@
     }
   ],
   "published": "2026-10-21",
-  "updated": "2026-10-21"
+  "updated": "2026-10-21",
+  "alternate": {
+    "en": "savings-goal-calculator"
+  }
 }

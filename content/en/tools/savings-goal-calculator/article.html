@@ -1,0 +1,67 @@
+<h2>What this calculator does</h2>
+<p>A savings goal is a target amount of money you want to have by a certain date. It might be a down payment, a trip, a car or an emergency fund. This calculator works backward from that target. You tell it the goal, how much you already have, the interest rate and how long you have. It tells you the monthly deposit that gets you there.</p>
+<p>It shows five results:</p>
+<ul>
+<li><strong>Monthly deposit needed:</strong> the amount to add at the end of every month.</li>
+<li><strong>Total of your deposits:</strong> the money that comes out of your own pocket.</li>
+<li><strong>Interest earned:</strong> the growth added by the account.</li>
+<li><strong>Balance at the end:</strong> the final amount, which is at or just above your goal.</li>
+<li><strong>Number of monthly deposits:</strong> how many payments you will make.</li>
+</ul>
+<p>A collapsible table shows your deposits, interest and balance at the end of each year.</p>
+
+<h2>How to use it</h2>
+<ol>
+<li><strong>Currency symbol.</strong> Pick $, &euro;, &pound;, C$ or A$. This only changes the symbol. Nothing is converted.</li>
+<li><strong>Savings goal.</strong> The total you want to have at the end.</li>
+<li><strong>Already saved.</strong> What you have today. Enter 0 if you are starting fresh.</li>
+<li><strong>Annual interest rate (APR).</strong> The yearly rate your account pays. Enter 0 if it pays nothing, or if you want to see the plain division.</li>
+<li><strong>Time.</strong> Whole years, plus 0 to 11 extra months. The time must be at least one month.</li>
+</ol>
+
+<h2>How the monthly deposit is calculated</h2>
+<p>With no interest, the math is simple division. You subtract what you have from the goal, then divide by the number of months.</p>
+<p class="formula">Deposit = (Goal &minus; Already saved) &divide; Months</p>
+<p>With interest, your money grows while you save, so you need less. This calculator assumes interest is added once a month at the yearly rate divided by 12, and that you deposit at the end of each month. Let <strong>i</strong> be the monthly rate (4% a year is 0.04 &divide; 12) and <strong>n</strong> be the number of months. Your current savings grow to S &times; (1 + i)<sup>n</sup>. The deposits grow to the deposit times ((1 + i)<sup>n</sup> &minus; 1) &divide; i. Setting the total equal to your goal and solving for the deposit gives:</p>
+<p class="formula">Deposit = (Goal &minus; S &times; (1 + i)<sup>n</sup>) &times; i &divide; ((1 + i)<sup>n</sup> &minus; 1)</p>
+<p>This is the standard future value of a series of equal payments, the same kind of math behind the SEC's <a href="https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator" rel="noopener">Investor.gov compound interest calculator</a>. Our <a href="/en/tools/compound-interest-calculator/">compound interest calculator</a> runs it in the forward direction, from a deposit to a final balance.</p>
+<p>The result is rounded up to the next cent. That way the final balance is never below your goal.</p>
+
+<h2>Worked examples</h2>
+<p>These numbers come straight from the calculator.</p>
+<table>
+<thead><tr><th>Goal</th><th>Already saved</th><th>Rate</th><th>Time</th><th>Monthly deposit</th><th>Interest earned</th></tr></thead>
+<tbody>
+<tr><td>$20,000</td><td>$2,000</td><td>0%</td><td>3 years</td><td>$500.00</td><td>$0.00</td></tr>
+<tr><td>$20,000</td><td>$2,000</td><td>4%</td><td>3 years</td><td>$464.77</td><td>$1,268.47</td></tr>
+<tr><td>$50,000</td><td>$5,000</td><td>5%</td><td>10 years</td><td>$268.97</td><td>$12,724.92</td></tr>
+</tbody>
+</table>
+<p>Look at the first two rows. The goal, the starting amount and the time are the same. A 4% rate cuts the deposit from $500.00 to $464.77, about $35 less each month. In the third row, a longer time lets interest do much of the work: $12,724.92 of the final balance is interest.</p>
+
+<h2>Ways to lower your monthly deposit</h2>
+<ul>
+<li><strong>Give it more time.</strong> A longer plan means smaller deposits, and more of the final balance comes from interest.</li>
+<li><strong>Start with what you have.</strong> Money already saved keeps growing the whole time.</li>
+<li><strong>Compare rates.</strong> A higher rate lowers your deposit, but check any fees, minimum balances and whether the rate is promotional.</li>
+<li><strong>Lower the goal.</strong> Try a few goals and see which monthly deposit fits your budget.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+<dt>Why is the deposit lower when I add interest?</dt>
+<dd>Because the account pays you for keeping money in it. Each month the balance earns interest, and that interest earns interest later. You need to deposit less of your own money.</dd>
+<dt>What if my goal is already covered?</dt>
+<dd>If your current savings would grow to the goal by themselves, the deposit shows 0 and a note tells you so.</dd>
+<dt>Does the calculator include taxes or inflation?</dt>
+<dd>No. Interest can be taxable, and prices usually rise over time, so your goal may need to be a little higher. This tool is a planning aid, not financial advice.</dd>
+<dt>What if I deposit at the start of the month?</dt>
+<dd>Each deposit would then earn one extra month of interest, so the true deposit needed would be slightly smaller. The calculator uses end-of-month deposits, which is a common and slightly cautious choice.</dd>
+<dt>What if the interest rate changes?</dt>
+<dd>Most savings account rates are variable. Run the calculator again with a new rate if yours changes, using your current balance as "Already saved" and the time you have left.</dd>
+</dl>
+
+<h2>Things to keep in mind</h2>
+<div class="note">
+<p>This calculator gives estimates under simple assumptions: a fixed rate, monthly interest at the annual rate divided by 12, and equal deposits made at the end of each month. Real accounts may compound daily, change rates, charge fees or limit deposits. The exact figures from your bank may differ. For the difference between a stated rate and the annual percentage yield (APY), see the CFPB's <a href="https://www.consumerfinance.gov/rules-policy/regulations/1030/a/" rel="noopener">Regulation DD, Appendix A</a>. This page is for general information and is not personal financial advice.</p>
+</div>

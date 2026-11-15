@@ -544,7 +544,7 @@
     "priority": 2,
     "complexity": "low",
     "offers": [],
-    "status": "todo",
+    "status": "done",
     "notes": "Monthly amount needed to reach a goal; reverse of compound-interest-calculator"
   },
   {

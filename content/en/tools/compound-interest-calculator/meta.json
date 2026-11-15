@@ -20,7 +20,8 @@
     "simple-interest-calculator",
     "loan-calculator",
     "credit-card-payoff-calculator",
-    "retirement-savings-calculator"
+    "retirement-savings-calculator",
+    "savings-goal-calculator"
   ],
   "sources": [
     {

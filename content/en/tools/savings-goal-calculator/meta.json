@@ -1,0 +1,37 @@
+{
+  "title": "Savings Goal Calculator: How Much to Save Each Month",
+  "shortTitle": "Savings Goal Calculator",
+  "description": "Free savings goal calculator: enter your target, what you have saved, the interest rate and the time to see the monthly deposit you need and the interest you could earn.",
+  "lead": "How much do you need to put away each month to reach a savings goal by a certain date? Enter your goal, your current savings, an interest rate and the time to find the monthly deposit.",
+  "category": "money",
+  "keywords": [
+    "savings goal calculator",
+    "how much to save each month",
+    "monthly savings calculator",
+    "savings calculator with goal",
+    "monthly deposit to reach savings goal",
+    "emergency fund calculator",
+    "required monthly deposit"
+  ],
+  "alternate": {
+    "ja": "chokin-mokuhyo"
+  },
+  "offers": [],
+  "related": [
+    "compound-interest-calculator",
+    "simple-interest-calculator",
+    "retirement-savings-calculator"
+  ],
+  "sources": [
+    {
+      "title": "Investor.gov (U.S. SEC): Compound Interest Calculator",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+    },
+    {
+      "title": "Consumer Financial Protection Bureau: Regulation DD (12 CFR 1030) Appendix A, Annual Percentage Yield Calculation",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/a/"
+    }
+  ],
+  "published": "2026-11-16",
+  "updated": "2026-11-16"
+}
