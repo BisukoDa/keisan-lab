@@ -47,3 +47,4 @@
 | 2026-11-12 | publish | en/simple-interest-calculator | Fable 90 (2回目合格; 1回目78は1年未満で比較欄がマイナスになる点と Investor.gov 例の引用違い) | Simple Interest Calculator: I = P × r × t With Months |
 | 2026-11-13 | publish | taishoku-zei | Fable 91 (3回目合格; 1回目68は制度改正の記述・住民税の端数処理・短期退職手当等の扱い、2回目84は令和9年以後の記述の食い違い) | 退職金の税金計算｜所得税・住民税と手取りの目安がわかる |
 | 2026-11-16 | publish | en/savings-goal-calculator | Fable 92 (2回目合格; 1回目84は極小金利での桁落ち) | Savings Goal Calculator: How Much to Save Each Month |
+| 2026-11-17 | publish | iryohi-kojo | Fable 90 (1回目合格) | 医療費控除の計算｜控除額と還付される税金の目安がわかる |

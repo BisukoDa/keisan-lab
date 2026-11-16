@@ -1,0 +1,20 @@
+{
+  "title": "医療費控除の計算｜控除額と還付される税金の目安がわかる",
+  "shortTitle": "医療費控除の計算",
+  "description": "支払った医療費・保険金の補てん額・所得を入れると、医療費控除の額と、所得税・住民税が軽くなる目安額がわかります。セルフメディケーション税制との比較もできます。",
+  "lead": "「今年の医療費は医療費控除の対象になる？」「確定申告するといくら戻る？」という疑問に、医療費と所得を入れるだけで答えます。10万円のしきい値や上限も自動で反映します。",
+  "category": "money",
+  "keywords": ["医療費控除 計算", "医療費控除 いくら戻る", "医療費控除 10万円", "医療費控除 還付金 計算", "セルフメディケーション税制 計算", "確定申告 医療費"],
+  "offers": ["accounting"],
+  "related": ["shohizei", "taishoku-zei", "fukugyo-shinkoku", "percent"],
+  "sources": [
+    { "title": "国税庁 No.1120 医療費を支払ったとき（医療費控除）", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm" },
+    { "title": "国税庁 No.1122 医療費控除の対象となる医療費", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1122.htm" },
+    { "title": "国税庁 No.1129 特定一般用医薬品等購入費を支払ったとき（医療費控除の特例）", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1129.htm" },
+    { "title": "国税庁 No.2260 所得税の税率", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm" },
+    { "title": "総務省 地方税制度「個人住民税」", "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html" }
+  ],
+  "reviewYearly": true,
+  "published": "2026-11-17",
+  "updated": "2026-11-17"
+}
