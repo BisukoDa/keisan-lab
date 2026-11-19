@@ -50,3 +50,4 @@
 | 2026-11-17 | publish | iryohi-kojo | Fable 90 (1回目合格) | 医療費控除の計算｜控除額と還付される税金の目安がわかる |
 | 2026-11-18 | skip | en/electricity-cost-calculator | Fable 審査不可（利用上限 429 エラー）のため未公開・作業破棄 | Electricity Cost Calculator |
 | 2026-11-19 | skip | furusato | Fable 審査不可（利用上限 429 エラー）のため未公開・作業破棄 | ふるさと納税の控除上限額の目安 |
+| 2026-11-20 | skip | en/electricity-cost-calculator | Fable 審査不可（利用上限 429 エラー、fable-reviewer・fable 指定の代替とも失敗）のため未公開・作業破棄 | Electricity Cost Calculator |
